@@ -36,7 +36,7 @@ const FOOTER_GROUPS = [
     },
 ];
 
-const SOCIAL_LINKS = [
+export const SOCIAL_LINKS = [
     {
         name: 'Facebook',
         href: 'https://www.facebook.com/pg/70maiofficial',

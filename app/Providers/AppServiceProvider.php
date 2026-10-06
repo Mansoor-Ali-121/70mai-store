@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Support\Cart;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -11,7 +12,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        // One cart per request, so the Inertia middleware sees changes made by controllers.
+        $this->app->scoped(Cart::class);
     }
 
     /**

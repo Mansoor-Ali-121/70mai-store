@@ -1,0 +1,816 @@
+{
+    "id": 7127232413742,
+    "slug": "dash-cam-4k-omni",
+    "name": "70mai Dash Cam 4K Omni 360 Full View with Dual Sony STARVIS 2, AI 2.0 & 4G LTE Supported",
+    "short_name": "70mai Dash Cam 4K Omni",
+    "tagline": "The Next-Gen 360° Dash Cam with Dual Brilliance",
+    "currency": "USD",
+    "rating": {
+        "average": 4.7,
+        "count": 13,
+        "breakdown": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 12
+        }
+    },
+    "installments": 4,
+    "notice": "Compatible 4G carriers: AT&T 4G and Telstra",
+    "promo": "Buy One get One accessory pack free: Add the 4K Omni accessory pack into cart.",
+    "options": [
+        {
+            "name": "Channel",
+            "type": "button",
+            "values": [
+                {
+                    "label": "Front+Rear Cam"
+                },
+                {
+                    "label": "Front Cam"
+                }
+            ]
+        },
+        {
+            "name": "Color",
+            "type": "swatch",
+            "values": [
+                {
+                    "label": "Black",
+                    "swatch": "#111111"
+                },
+                {
+                    "label": "Red & White",
+                    "swatch": "#E3262E"
+                }
+            ]
+        }
+    ],
+    "variants": [
+        {
+            "id": 41314857451566,
+            "options": [
+                "Front+Rear Cam",
+                "Black"
+            ],
+            "price": 26999,
+            "compare_at_price": 34999,
+            "available": true,
+            "image": 0
+        },
+        {
+            "id": 41442558050350,
+            "options": [
+                "Front+Rear Cam",
+                "Red & White"
+            ],
+            "price": 26999,
+            "compare_at_price": 34999,
+            "available": true,
+            "image": 1
+        },
+        {
+            "id": 41249625702446,
+            "options": [
+                "Front Cam",
+                "Black"
+            ],
+            "price": 19999,
+            "compare_at_price": 24999,
+            "available": true,
+            "image": 2
+        },
+        {
+            "id": 41442558083118,
+            "options": [
+                "Front Cam",
+                "Red & White"
+            ],
+            "price": 19999,
+            "compare_at_price": 24999,
+            "available": true,
+            "image": 3
+        }
+    ],
+    "images": [
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_time_badge_2.jpg?v=1761202621&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_time_badge_2.jpg?v=1761202621&width=200",
+            "alt": "70mai Dash Cam 4K Omni, Front+Rear Cam / Black"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-dual-channel_red.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-dual-channel_red.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, Front+Rear Cam / Red & White"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_time_badge.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_time_badge.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, Front Cam / Black"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-red-white.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-red-white.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, Front Cam / Red & White"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_01.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_01.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 5"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_02.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_02.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 6"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_03.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_03.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 7"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_04.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_04.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 8"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_05.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_05.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 9"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_06.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_06.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 10"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_07.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_07.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 11"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_08.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_08.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 12"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_09.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_09.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 13"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_10.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_10.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 14"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_11.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_11.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 15"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_13.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_13.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 16"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_12_1.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_12_1.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 17"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_14.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_14.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 18"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_15.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_15.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 19"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_16.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_16.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 20"
+        },
+        {
+            "src": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_reddot_award.jpg?v=1761190082&width=1200",
+            "thumb": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_reddot_award.jpg?v=1761190082&width=200",
+            "alt": "70mai Dash Cam 4K Omni, image 21"
+        }
+    ],
+    "highlights": [
+        {
+            "title": "Dual-Channel Recording with 4K Image Quality",
+            "body": "Capture crystal-clear 4K footage from the front camera (Sony STARVIS 2 IMX678 sensor) and 1080P from the rear, both with HDR support. Experience smooth 4K 60FPS* recording for detailed and fluid video even at high speeds."
+        },
+        {
+            "title": "Immersive 360° Full-View",
+            "body": "With a 360° rotating design powered by dual Hall Effect sensors and the equipped magnetic system, the 4K Omni delivers precise lens positioning and flawless rotating, ensuring zero blind spots while doubling as a fun travel vlog recorder to capture every moment of your journey."
+        },
+        {
+            "title": "Enhanced Night Vision and Parking Surveillance",
+            "body": "70mai Night Owl Vision and Lumi Vision technologies ensure clear recordings in low-light conditions while driving and parked. AI Motion Detection 2.0 with dual Hall Effect sensors provides accurate tracking and recording of potential incidents."
+        },
+        {
+            "title": "Comprehensive Parking Protection",
+            "body": "Dual-channel collision detection and time-lapse recording activate the front and rear cameras in parking mode. 4G compatibility enables instant app alerts, car location, live route tracking, and app live streaming for remote monitoring."
+        },
+        {
+            "title": "Advanced Safety Features",
+            "body": "Buffered emergency recording captures crucial footage before, during, and after an incident. Built-in GPS tracks speed, time, and location. Super-sensing ADAS provides lane departure, forward collision, and other driver-assistance warnings."
+        },
+        {
+            "title": "Reliable Power and Storage",
+            "body": "A built-in supercapacitor ensures reliable operation and a long lifespan in extreme temperatures. Battery voltage monitoring prevents car battery drain. Supports up to 512GB of external storage for ample recording capacity."
+        },
+        {
+            "title": "Smart Connectivity and User Experience",
+            "body": "Wi-Fi 6 (5GHz) enables fast file transfers. Voice control (multiple languages) and the MaiX in-car AI mate provide hands-free operation and interactive features."
+        },
+        {
+            "title": "High-Speed Transfer",
+            "body": "Download speeds up to 20MB/s with Wi-Fi 6 5GHz."
+        },
+        {
+            "title": "Additional Features",
+            "body": "Road Story Filter adds driving data and effects to footage for sharing."
+        }
+    ],
+    "highlights_note": "*4K 60FPS is exclusive to single-channel mode, while dual-channel mode supports up to 4K 30FPS.",
+    "shipping": [
+        {
+            "title": "1. Shipping Fee & Time",
+            "blocks": [
+                {
+                    "type": "strong",
+                    "text": "Free shipping for orders over $99."
+                },
+                {
+                    "type": "heading",
+                    "text": "Shipping to the United States"
+                },
+                {
+                    "type": "text",
+                    "text": "Order placed before 5pm (PT) will be dispatched the same day excepts weekends or public holidays. Shipping and delivery is an additional 3-7 days."
+                },
+                {
+                    "type": "heading",
+                    "text": "Shipping to CA/AU/KR"
+                },
+                {
+                    "type": "text",
+                    "text": "Order placed before 5pm (PT) will be dispatched the next day excepts weekends or public holidays. Shipping and delivery is an additional 7-14 days."
+                },
+                {
+                    "type": "text",
+                    "text": "Please allow up to 2 working days for processing your order. When your package is shipped, we will send you an email including a link and a tracking number so you can see the progress of your package."
+                },
+                {
+                    "type": "text",
+                    "text": "During a sale event, shipping may be delayed due to the high volume of orders. We will process order ASAP, however if there is a significant delay, we will contact you through email."
+                }
+            ]
+        },
+        {
+            "title": "2. Tracking Number",
+            "blocks": [
+                {
+                    "type": "text",
+                    "text": "Once your order ships, we will send you an email including tracking number individually. Please allow 48 hours for the tracking update. If your tracking has no update over 3 working days, please contact us at onlinehelp@70mai.com, we are here to help."
+                }
+            ]
+        },
+        {
+            "title": "3. Delivery Address",
+            "blocks": [
+                {
+                    "type": "text",
+                    "text": "A correct and complete delivery address is essential. Otherwise your parcel may experience a delay or a lost which we are not responsible for due to the incorrect information provided by you (our customers)."
+                },
+                {
+                    "type": "text",
+                    "text": "We are unable to change the address once your package is already shipped out. If a package is returned to us due to an incorrect or incomplete address, we will contact you for a correction, and the package will be re-shipped at an additional shipping fee."
+                }
+            ]
+        },
+        {
+            "title": "4. Order Cancellation",
+            "blocks": [
+                {
+                    "type": "text",
+                    "text": "We accept order cancellation before the product is shipped. If the order is canceled you will get full refund. We cannot cancel the order if the product is already shipped out."
+                }
+            ]
+        },
+        {
+            "title": "5. Order Modification",
+            "blocks": [
+                {
+                    "type": "text",
+                    "text": "We don't offer order emendation after the order has been placed. If you want to change the item(s) of your order, please contact us in time to cancel the original order and replace it with a new one."
+                }
+            ]
+        }
+    ],
+    "bundle": [
+        {
+            "id": 6857345400878,
+            "slug": "microsd-card",
+            "name": "70mai Micro SD Card for Dash Cam",
+            "image": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai-256g-microsd-card_2.jpg?v=1746609154&width=200",
+            "variants": [
+                {
+                    "id": 40464939941934,
+                    "title": "256G",
+                    "price": 5999,
+                    "compare_at_price": null,
+                    "available": true
+                },
+                {
+                    "id": 40334861336622,
+                    "title": "128G",
+                    "price": 4599,
+                    "compare_at_price": null,
+                    "available": true
+                },
+                {
+                    "id": 40173136314414,
+                    "title": "64G",
+                    "price": 3199,
+                    "compare_at_price": null,
+                    "available": true
+                },
+                {
+                    "id": 40173136281646,
+                    "title": "32G",
+                    "price": 1999,
+                    "compare_at_price": null,
+                    "available": false
+                },
+                {
+                    "id": 41383111163950,
+                    "title": "512G",
+                    "price": 9999,
+                    "compare_at_price": 12999,
+                    "available": true
+                }
+            ]
+        },
+        {
+            "id": 6888434630702,
+            "slug": "4g-hardwire-kit",
+            "name": "70mai Hardwire Kit with USB Type-C Port",
+            "image": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/20260408-155035.jpg?v=1776739161&width=200",
+            "variants": [
+                {
+                    "id": 40946985893934,
+                    "title": "4G UP05",
+                    "price": 6999,
+                    "compare_at_price": null,
+                    "available": true
+                },
+                {
+                    "id": 40946985926702,
+                    "title": "4G UP04",
+                    "price": 4999,
+                    "compare_at_price": null,
+                    "available": false
+                },
+                {
+                    "id": 41519122645038,
+                    "title": "Adjustable UP06",
+                    "price": 3599,
+                    "compare_at_price": null,
+                    "available": true
+                },
+                {
+                    "id": 41178676035630,
+                    "title": "UP03",
+                    "price": 2799,
+                    "compare_at_price": null,
+                    "available": true
+                }
+            ]
+        },
+        {
+            "id": 7153701093422,
+            "slug": "cpl-filter-for-4k-omni",
+            "name": "70mai CPL Filter for Dash Cam 4K Omni",
+            "image": "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-cpl_3.jpg?v=1741243126&width=200",
+            "variants": [
+                {
+                    "id": 41317264523310,
+                    "title": null,
+                    "price": 1399,
+                    "compare_at_price": 2699,
+                    "available": true
+                }
+            ]
+        }
+    ],
+    "banner": {
+        "image": "https://70mai.store/cdn/shop/files/4K_Omni_time_badge_web.jpg?v=1761201730&width=1920",
+        "mobile_image": "https://70mai.store/cdn/shop/files/4K_Omni_time_badge_mobile.jpg?v=1761201730&width=750",
+        "alt": "70mai Dash Cam 4K Omni. The Next-Gen 360° Dash Cam with Dual Brilliance. TIME Best Inventions 2025, Red Dot winner 2025."
+    },
+    "feature_tiles": [
+        {
+            "title": "Dual Sony STARVIS 2",
+            "alt": "Dual Sony STARVIS 2",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-starvis.webp?v=1740384588&width=1200",
+            "cols": 2,
+            "rows": 1
+        },
+        {
+            "title": "70mai Lumi Vision™",
+            "alt": "70mai Lumi Vision™",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-LUMI-vision.webp?v=1740384588&width=700",
+            "cols": 1,
+            "rows": 1
+        },
+        {
+            "title": "Wi-Fi 6 5GHz",
+            "alt": "Wi-Fi 6 5GHz",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-wifi6.webp?v=1740384579&width=700",
+            "cols": 1,
+            "rows": 1
+        },
+        {
+            "title": "AI Motion Detection 2.0",
+            "alt": "AI Motion Detection 2.0",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-ai-2.0.webp?v=1740384592&width=700",
+            "cols": 1,
+            "rows": 2
+        },
+        {
+            "title": "HDR Dual-Channel Supported",
+            "alt": "HDR Dual-Channel Supported",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-HDR-dual-channel.webp?v=1740384590&width=700",
+            "cols": 1,
+            "rows": 2
+        },
+        {
+            "title": "Voice Control",
+            "alt": "Voice Control",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-Voice-Control.webp?v=1740384577&width=700",
+            "cols": 1,
+            "rows": 1
+        },
+        {
+            "title": "4G Compatible",
+            "alt": "4G Compatible",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-real-time-alerts.webp?v=1740384583&width=700",
+            "cols": 1,
+            "rows": 1
+        },
+        {
+            "title": "Supercapacitor",
+            "alt": "Supercapacitor",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-Supercapacitor.webp?v=1740384591&width=700",
+            "cols": 1,
+            "rows": 1
+        },
+        {
+            "title": null,
+            "alt": "4K 60FPS",
+            "image": "https://70mai.store/cdn/shop/files/4K_60FPS.webp?v=1740384577&width=700",
+            "cols": 1,
+            "rows": 1
+        }
+    ],
+    "spotlight": {
+        "title": "4K@60FPS* Unrivaled Clarity",
+        "body": "4K 3840x2160 resolution, delivering an immersive visual experience. Its ultra-high definition brings unrivaled clarity, allowing you to precisely zoom in and capture every intricate detail. Furthermore, with our MaiColor Vivid+ Solution™, intelligent auto-exposure is no longer simply an average brightness adjustment. Instead, it simulates the human visual system to optimize for various scenes. By selectively processing image information, it highlights key elements and suppresses noise, resulting in a significant improvement in image quality and providing stronger assurance for driving safety.",
+        "note": "*4K 60FPS is exclusive to single-channel mode, while dual-channel mode supports up to 4K 30FPS.",
+        "video": "https://70mai.store/cdn/shop/videos/c/vp/6d95e170921b462c8a33f4478d992070/6d95e170921b462c8a33f4478d992070.HD-1080p-4.8Mbps-43124917.mp4?v=0",
+        "poster": "https://70mai.store/cdn/shop/files/preview_images/6d95e170921b462c8a33f4478d992070.thumbnail.0000000000_1280x.jpg?v=1740391948"
+    },
+    "feature_sections": [
+        {
+            "title": "AI Motion Detection 2.0",
+            "body": "We've made significant optimizations to address the issue of insensitive motion detection. By combining dual Hall effect sensors and a magnetic system, we've dramatically improved lens positioning accuracy. Additionally, a smooth 340° pan ensures 360° coverage without blind spots. Our AI algorithms have also been upgraded, enabling precise tracking of both single and multiple targets, as well as fast-moving objects. The system can intelligently adapt to various motion scenarios. Once a potential target is detected, the device will automatically focus, track, and initiate a 30-second pre- and post-recording to ensure critical evidence is captured.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-ai-detection.webp?v=1740384586&width=1600"
+        },
+        {
+            "title": "70mai Night Owl Vision™",
+            "body": "The 70mai Night Owl Vision™ is another exclusive technology that produces clearer nighttime images with less noise, balanced exposure, and improved glare control. Even the license plates in the distance are clear and distinguishable. Upon zooming in, a distinct contrast emerges.",
+            "compare": [
+                {
+                    "label": "4K Omni",
+                    "image": "https://70mai.store/cdn/shop/files/4k-omni-night-view.webp?v=1740384588&width=800"
+                },
+                {
+                    "label": "Others",
+                    "image": "https://70mai.store/cdn/shop/files/competitor-night-view.webp?v=1740384584&width=800"
+                }
+            ]
+        },
+        {
+            "title": "Dual Vision, Dual Brilliance",
+            "body": "The front and rear dual recording delivers a comprehensive, multi-angle view, and significant breakthroughs have been made in image quality. Both cameras support HDR recording and feature image sensors with the Sony STARVIS 2 technology, larger pixel sizes for enhanced light capture, delivering sharper, more detailed footage even in low-light settings.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-dual-channel.webp?v=1740384581&width=1200",
+            "stats": [
+                {
+                    "value": "68%",
+                    "label": "Sensor Size"
+                },
+                {
+                    "value": "90%",
+                    "label": "Light Sensitivity"
+                },
+                {
+                    "value": "100%",
+                    "label": "Low Light Performance"
+                }
+            ],
+            "note": "*Compared to the Sony STARVIS image sensor; data sourced from Sony."
+        },
+        {
+            "title": "Supercapacitor",
+            "body": "The 4K Omni withstands extreme working temperatures ranging from -40°C ~ 85°C (-40°F ~ 185°F) and boasts an impressive lifespan capable of handling hundreds of thousands of charge cycles without sacrificing performance. Pairing with the 70mai battery offers a more robust solution for safeguarding the car battery and avoiding insurance coverage that has lapsed.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-super-capacitor.webp?v=1740384588&width=1000"
+        },
+        {
+            "title": "4G LTE Connectivity",
+            "body": "The 4G connectivity ensures uninterrupted communication with your vehicle from any location.",
+            "note": "*The 4G hardwire kit is required, sold separately, and is available in select countries.",
+            "cards": [
+                {
+                    "title": "Instant App Alert",
+                    "body": "When your car is parked, it sends instant notifications to your phone in the event of a collision.",
+                    "image": "https://70mai.store/cdn/shop/files/4k-omni-live-show.webp?v=1740384584&width=700"
+                },
+                {
+                    "title": "Find My Car",
+                    "body": "Easily locate your car in busy areas and provide walking navigation via the App.",
+                    "image": "https://70mai.store/cdn/shop/files/4k-omni-find-my-card.webp?v=1740384585&width=700"
+                },
+                {
+                    "title": "Live Route Tracking & Streaming",
+                    "body": "Upgraded to support real-time remote tracking at all times, it allows you to monitor the live driving route remotely via the App, keeping informed of your car's status when someone else is driving it.",
+                    "image": "https://70mai.store/cdn/shop/files/4k-omni-live-streaming.webp?v=1740384581&width=700"
+                }
+            ]
+        },
+        {
+            "title": "Voice Control & MaiX In-Car AI Mate",
+            "body": "Where Smart, Fun, and Engaging Design Meets Technical Excellence. The 4K Omni is more than just a dash cam! It's your in-car AI Mate that listens to you and interacts with you! Voice control now goes beyond English and Mandarin, with added support for Italian, giving even more options to go hands-free. The LED glow ring provides instant feedback on working status, illuminating red to alert you to any suspicious activity.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-MaiX.webp?v=1740384581&width=1000"
+        },
+        {
+            "title": "70mai Lumi Vision",
+            "body": "Introducing the latest advancement specifically designed for night parking mode, 70mai Lumi Vision. It's customized to enhance brightness in low-light parking environments. So, you'll get vibrant, high-clarity footage even in the darkest conditions, ensuring enhanced visibility and protection for your vehicle, day or night.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-lumi-night-vision.webp?v=1740384588&width=1000"
+        },
+        {
+            "title": "High-Speed Transfer",
+            "body": "Upgrade with Wi-Fi 6 5GHz, delivering download speeds of up to 20MB/s. Now, you can download a 200MB video in just 10 seconds.",
+            "note": "*Download speeds can fluctuate due to factors such as environmental conditions and the smartphone used.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-high-speed-transfer.webp?v=1740384582&width=800"
+        },
+        {
+            "title": "Built-in GPS",
+            "body": "The built-in GPS captures speed, time, and precise coordinates, seamlessly logged for review in the 70mai App, offering proof of travel and route optimization.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-route-track.webp?v=1740384582&width=800"
+        },
+        {
+            "title": "Super-Sensing ADAS",
+            "body": "Warn you in advance to avoid traffic safety risks: lane departure, forward collision, forward vehicle start, and adding identifications on pedestrians and cyclists to provide an extra layer of safety for your journey.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-adas.webp?v=1740384593&width=800"
+        },
+        {
+            "title": "Upgraded Buffered Emergency Recording",
+            "body": "Extending the buffer beyond 10 seconds (up to 3 minutes). It captures the pre-collision buffer, the exact moment of impact, and 30 seconds of post-collision footage, ensuring all crucial moments are recorded.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-emergency-recording.webp?v=1740384589&width=800"
+        },
+        {
+            "title": "Road Story Filter",
+            "body": "The road story filter sprinkles a dash of driving data and visual effects on your footage, conjuring up an epic, sci-fi vibe during playback. Experience the thrill and share your odyssey with friends, transforming ordinary journeys into extraordinary memories.",
+            "image": "https://70mai.store/cdn/shop/files/4k-omni-filter.webp?v=1740384581&width=800"
+        }
+    ],
+    "in_the_box": {
+        "image": "https://70mai.store/cdn/shop/files/4k-omni-packing-list.webp?v=1740384595&width=1935",
+        "mobile_image": "https://70mai.store/cdn/shop/files/4k-omni-packing-list-mobile.webp?v=1740391273&width=670",
+        "alt": "Package contents of the 70mai Dash Cam 4K Omni"
+    },
+    "specs": [
+        {
+            "label": "Processor",
+            "values": [
+                "NT98530 12nm Quad-Core"
+            ]
+        },
+        {
+            "label": "Display Screen",
+            "values": [
+                "1.4 Inch IPS"
+            ]
+        },
+        {
+            "label": "Video Resolution",
+            "values": [
+                "Front: 3840*2160P (4K)",
+                "Rear: 1920*1080P"
+            ]
+        },
+        {
+            "label": "Image Sensor",
+            "values": [
+                "Front: Sony STARVIS 2 IMX678",
+                "Rear: Sony STARVIS 2 IMX662"
+            ]
+        },
+        {
+            "label": "Frame Rate",
+            "values": [
+                "Single Channel: 4K 60FPS",
+                "Dual Channel: 4K 30FPS + 1080P 30FPS"
+            ]
+        },
+        {
+            "label": "Field of View",
+            "values": [
+                "Front: 360°",
+                "Rear: 130°"
+            ]
+        },
+        {
+            "label": "Aperture",
+            "values": [
+                "F1.7"
+            ]
+        },
+        {
+            "label": "Wi-Fi",
+            "values": [
+                "Wi-Fi 6 5GHz"
+            ]
+        },
+        {
+            "label": "Storage",
+            "values": [
+                "Up to 512GB MicroSD Card"
+            ]
+        },
+        {
+            "label": "Voice Control",
+            "values": [
+                "EN/ CN/ IT/ JA"
+            ]
+        },
+        {
+            "label": "System Language",
+            "values": [
+                "EN/ RU/ JA/ KR/ ES/ PT/ ZH-TW/ TH/ PL/ FR/ DE/ CZ/ RO/ HU/ UK/ VN/ ID/ PH/ IT/ TR/ AR"
+            ]
+        },
+        {
+            "label": "Operating Temperature",
+            "values": [
+                "-10°C to 60°C (14°F to 140 °F)"
+            ]
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What is the night vision enhancement function of this model? What are its advantages?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "This model is equipped with large aperture lens and starlight night vision level image sensors, allowing for superior low-light imaging capabilities, which are supplemented by specially optimized imaging parameters for night driving and night parking security. In scenarios with dim lighting, such as traveling at night on roads without street lights, parking in parking lots with dim lighting, dim underground garage, etc., the dash cam can provide outstanding image quality for image algorithm analysis and evidence acquiring."
+                }
+            ]
+        },
+        {
+            "question": "What is Road Story Filter?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "The Road Story Filter is a visual effect feature available on high-end 70mai dash cam models. When the Road Story Filter is enabled, visually appealing effects will be overlaid on top of the footage during playback of normal or emergency video clips in the app. These effects will display information such as vehicle speed, direction of travel, altitude, pitch angle, tilt angle, the lane depiction, and the distance to the front vehicle. With Road Story Filter, you can recall your driving experience vividly from a perspective and sensation similar to racing games, or analyze causes of accidents in greater detail."
+                }
+            ]
+        },
+        {
+            "question": "The 70mai 4G Hardwire Kit supports nine levels of voltage protection threshold settings. What are the nine levels, and what are their purposes?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "The 9 levels of voltage protection are as follows:"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "11.8/23.6 V",
+                        "11.9/23.8 V",
+                        "12.0/24.0 V (default)",
+                        "12.1/2/24.2 V",
+                        "12.2/24.4 V",
+                        "12.3/24.6 V",
+                        "12.4/24.8 V",
+                        "12.5/25.0 V",
+                        "12.6/25.2 V"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "The battery protection voltage threshold can be gradually adjusted based on the actual situation of your vehicle's battery capacity and age, so that you can use the sentinel mode for the longest possible time while protecting your battery."
+                }
+            ]
+        },
+        {
+            "question": "What is motion detection? When does this function trigger the recording of parking surveillance video?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "If you have enabled the motion detection function in the dash cam settings. After the vehicle engine has been switched off and enters sentinel mode, the dash cam will continue to record and the built-in AI algorithm will continue to analyze the scene in the field of view. In the event that the ongoing image algorithm of the dash cam determines that the level of threat by a moving object has reached the recording threshold, the dash cam records a 30-second parking surveillance video. The recording is then stored in the parking surveillance video folder of the dash cam's built-in storage. In this scenario, the moving object is usually within the dash cam's field of view for an extended period of time."
+                }
+            ]
+        },
+        {
+            "question": "Why can't I use HDR mode after setting the frame rate to 60 fps?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "Based on the HDR mode realization principle, the amount of frame encoding calculation is equal to 60 fps under the setting of HDR+30 fps. HDR and 60 fps cannot be enabled simultaneously on mainstream dash cam controllers because the processing capability is insufficient."
+                }
+            ]
+        },
+        {
+            "question": "What are the advantages of HDR mode?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "This model is equipped with hardware-level HDR capability, which can greatly optimize the imaging effect in scenarios with strong brightness contrast, such as the following:"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Entering and exiting tunnels or underground garages during the daytime on a sunny day;",
+                        "Headlights shining directly on the license plate of the vehicle at night;",
+                        "Shadow imaging of objects on the road in areas exposed to strong sunlight."
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "What is the recording duration of the 4K Omni parking surveillance power?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "When time-lapse mode, motion detection and collision detection are all enabled, the recording duration is 32 hours. With time-lapse and collision detection enabled and motion detection disabled, the recording duration is 46 hours."
+                }
+            ]
+        },
+        {
+            "question": "Why is my memory card not working?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "This dash cam model supports 4K 60fps images and requires high-speed memory cards. Use a U3 or higher memory card. Based on the adaptation results of lab tests:"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Highly recommended: Official 70mai memory card:",
+                        "Memory cards that work properly in normal lab aging tests: Kingston U3 level 64GB+ memory card, Sandisk U3 level 32GB~256GB memory card, Lexar U3 level 128GB+ memory card;",
+                        "Not recommended: Samsung memory card (white), KIOXIA memory card, Netac memory card, Transcend memory card"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Note: Based on the lab test results of purchased samples; the test results for different batches of memory cards may vary."
+                }
+            ]
+        },
+        {
+            "question": "If I already have an old Omni and a UP03/ UP04/ UP05, do I need to uninstall and reinstall when purchasing a 4K Omni?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "No, you don't need to repeat the installation. You can just replace the front cam."
+                }
+            ]
+        },
+        {
+            "question": "I have other 70mai models with rear recording. Can I directly replace the front camera and continue using the same rear camera?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "No, currently the 4K Omni only supports the RC14 and the dedicated 4K Omni CPL."
+                }
+            ]
+        },
+        {
+            "question": "Does 4K Omni work well in summer conditions outdoors?",
+            "answer": [
+                {
+                    "type": "text",
+                    "text": "4K Omni use supercapacitor which allowing it to handle more extreme temperatures (-10°C~60°C) and providing better overall performance."
+                }
+            ]
+        }
+    ]
+}

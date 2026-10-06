@@ -1,4 +1,5 @@
-import { Link } from '@inertiajs/react';
+import { CartIcon } from '@/components/store/icons';
+import { Link, usePage } from '@inertiajs/react';
 import { useState } from 'react';
 import AppLink from './AppLink';
 import CloudImage from './CloudImage';
@@ -22,6 +23,7 @@ const STORE_URL = 'https://70mai.store/?utm_source=homepage&utm_medium=brandsite
 
 export default function SiteHeader() {
     const [menuOpen, setMenuOpen] = useState(false);
+    const cartCount = usePage().props.cart?.count ?? 0;
 
     return (
         <header className="relative flex h-11 w-full items-center justify-center border-b-1 bg-white lg:h-20">
@@ -69,7 +71,15 @@ export default function SiteHeader() {
                     </ul>
                 </nav>
 
-                <div className="absolute right-4 flex items-center justify-center text-base lg:relative lg:right-0 lg:ml-8">
+                <div className="absolute right-4 flex items-center justify-center gap-4 text-base lg:relative lg:right-0 lg:ml-8 lg:gap-5">
+                    <Link href="/cart" aria-label={`Cart, ${cartCount} items`} className="relative hover:text-mai">
+                        <CartIcon className="h-5 w-5 lg:h-6 lg:w-6" />
+                        {cartCount > 0 && (
+                            <span className="absolute -right-2 -top-2 flex h-4 min-w-4 items-center justify-center rounded-full bg-mai px-1 text-[10px] font-semibold text-white">
+                                {cartCount}
+                            </span>
+                        )}
+                    </Link>
                     <a
                         href={STORE_URL}
                         className="rounded-full border-1 border-primary px-3 py-1 text-sm leading-tight md:text-center lg:px-4 lg:py-1.5"
