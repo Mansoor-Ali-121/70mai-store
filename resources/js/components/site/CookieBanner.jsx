@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { officialUrl } from '@/lib/officialSite';
 import AppLink from './AppLink';
 
 const STORAGE_KEY = 'cookie-consent';
@@ -34,14 +35,14 @@ export default function CookieBanner() {
                     70mai uses strictly necessary cookies and related technologies to enable the website to function.
                     By clicking on accept, you agree to the use of this technology across the web. For more information
                     on cookie practices, please refer to our{' '}
-                    <AppLink href="/cookie-policy" className="text-mai">
+                    <AppLink href={officialUrl('cookie-policy')} className="text-mai">
                         Cookie Policy
                     </AppLink>
                     .
                 </p>
                 <div className="flex w-full flex-col gap-6 pb-10 pt-6 md:w-1/2 md:flex-row md:justify-end md:pb-0 md:pt-0">
                     <AppLink
-                        href="/cookie-setting"
+                        href={officialUrl('cookie-setting')}
                         className="rounded-full border border-[#dcdfe6] bg-white px-6 py-3 text-center text-sm font-light text-[#606266]"
                     >
                         Manage Cookies

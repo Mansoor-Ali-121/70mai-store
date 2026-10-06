@@ -118,7 +118,7 @@ export default function Checkout({ lines, totals, currency, countries }) {
                             <h2 className="text-xl font-semibold">Payment</h2>
                             {/* TODO: render the payment provider's form here. */}
                             <p className="rounded-md bg-[#F7F7F7] p-4 text-[15px] text-muted">
-                                Online payment isn't set up yet. Your order will be saved as pending, and you won't be charged.
+                                Payment is arranged offline: once you place your order, we'll contact you to complete payment. Nothing is charged online.
                             </p>
                         </section>
                     </div>
@@ -129,6 +129,7 @@ export default function Checkout({ lines, totals, currency, countries }) {
                             lines={lines}
                             subtotal={totals.subtotal}
                             shipping={totals.shipping}
+                            tax={totals.tax}
                             total={totals.total}
                             currency={currency}
                         >

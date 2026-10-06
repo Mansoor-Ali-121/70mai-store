@@ -2,7 +2,8 @@
 
 namespace App\Http\Middleware;
 
-use App\Support\Cart;
+use App\Storefront\Navigation;
+use App\Storefront\StoreCart;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -38,7 +39,8 @@ class HandleInertiaRequests extends Middleware
     {
         return [
             ...parent::share($request),
-            'cart' => fn () => ['count' => app(Cart::class)->count()],
+            'cart' => fn () => ['count' => app(StoreCart::class)->count()],
+            'navigation' => fn () => app(Navigation::class)->collections(),
             'flash' => fn () => [
                 'error' => $request->session()->get('error'),
             ],

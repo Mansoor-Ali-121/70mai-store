@@ -2,24 +2,25 @@
 
 namespace App\Http\Controllers;
 
-use App\Support\ProductCatalog;
+use App\Storefront\Catalog;
+use App\Storefront\ProductPresenter;
 use Inertia\Inertia;
 use Inertia\Response;
 
 class ProductController extends Controller
 {
     /**
-     * Demo product page backed by a JSON fixture until products come from Lunar.
-     * The same fixture is the page's client-side fallback.
+     * Product page backed by Lunar, queried fresh on every request so admin
+     * edits (names, prices, stock, images) show up on the next page load.
      */
-    public function show(ProductCatalog $catalog, string $slug): Response
+    public function show(Catalog $catalog, ProductPresenter $presenter, string $slug): Response
     {
-        $product = $catalog->find($slug);
+        $product = $catalog->findBySlug($slug);
 
         abort_if($product === null, 404);
 
         return Inertia::render('ProductDetail', [
-            'product' => $product,
+            'product' => $presenter->present($product),
         ]);
     }
 }

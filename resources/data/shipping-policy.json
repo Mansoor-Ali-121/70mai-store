@@ -1,0 +1,75 @@
+[
+    {
+        "title": "1. Shipping Fee & Time",
+        "blocks": [
+            {
+                "type": "strong",
+                "text": "Free shipping for orders over $99."
+            },
+            {
+                "type": "heading",
+                "text": "Shipping to the United States"
+            },
+            {
+                "type": "text",
+                "text": "Order placed before 5pm (PT) will be dispatched the same day excepts weekends or public holidays. Shipping and delivery is an additional 3-7 days."
+            },
+            {
+                "type": "heading",
+                "text": "Shipping to CA/AU/KR"
+            },
+            {
+                "type": "text",
+                "text": "Order placed before 5pm (PT) will be dispatched the next day excepts weekends or public holidays. Shipping and delivery is an additional 7-14 days."
+            },
+            {
+                "type": "text",
+                "text": "Please allow up to 2 working days for processing your order. When your package is shipped, we will send you an email including a link and a tracking number so you can see the progress of your package."
+            },
+            {
+                "type": "text",
+                "text": "During a sale event, shipping may be delayed due to the high volume of orders. We will process order ASAP, however if there is a significant delay, we will contact you through email."
+            }
+        ]
+    },
+    {
+        "title": "2. Tracking Number",
+        "blocks": [
+            {
+                "type": "text",
+                "text": "Once your order ships, we will send you an email including tracking number individually. Please allow 48 hours for the tracking update. If your tracking has no update over 3 working days, please contact us at onlinehelp@70mai.com, we are here to help."
+            }
+        ]
+    },
+    {
+        "title": "3. Delivery Address",
+        "blocks": [
+            {
+                "type": "text",
+                "text": "A correct and complete delivery address is essential. Otherwise your parcel may experience a delay or a lost which we are not responsible for due to the incorrect information provided by you (our customers)."
+            },
+            {
+                "type": "text",
+                "text": "We are unable to change the address once your package is already shipped out. If a package is returned to us due to an incorrect or incomplete address, we will contact you for a correction, and the package will be re-shipped at an additional shipping fee."
+            }
+        ]
+    },
+    {
+        "title": "4. Order Cancellation",
+        "blocks": [
+            {
+                "type": "text",
+                "text": "We accept order cancellation before the product is shipped. If the order is canceled you will get full refund. We cannot cancel the order if the product is already shipped out."
+            }
+        ]
+    },
+    {
+        "title": "5. Order Modification",
+        "blocks": [
+            {
+                "type": "text",
+                "text": "We don't offer order emendation after the order has been placed. If you want to change the item(s) of your order, please contact us in time to cancel the original order and replace it with a new one."
+            }
+        ]
+    }
+]

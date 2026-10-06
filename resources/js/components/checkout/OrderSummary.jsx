@@ -3,12 +3,12 @@ import { formatMoney } from '@/lib/money';
 /**
  * Line items and totals. Lines use `price` (cart) or `unit_price` (placed order).
  */
-export default function OrderSummary({ lines, subtotal, shipping, total, currency, children }) {
+export default function OrderSummary({ lines, subtotal, shipping, tax = 0, total, currency, children }) {
     return (
         <div className="space-y-6">
             <ul className="space-y-5">
                 {lines.map((line) => (
-                    <li key={line.variant_id} className="flex gap-4">
+                    <li key={line.id ?? line.variant_id} className="flex gap-4">
                         <div className="relative shrink-0">
                             {line.image ? (
                                 <img src={line.image} alt="" className="h-16 w-16 border border-[#E5E5E5] bg-white object-contain" />
@@ -37,6 +37,12 @@ export default function OrderSummary({ lines, subtotal, shipping, total, currenc
                     <dt>Shipping</dt>
                     <dd>{shipping === 0 ? 'Free' : formatMoney(shipping, currency)}</dd>
                 </div>
+                {tax > 0 && (
+                    <div className="flex justify-between">
+                        <dt>Tax</dt>
+                        <dd>{formatMoney(tax, currency)}</dd>
+                    </div>
+                )}
                 <div className="flex justify-between border-t border-[#E0E0E0] pt-4 text-lg font-semibold">
                     <dt>Total</dt>
                     <dd>

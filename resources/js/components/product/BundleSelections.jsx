@@ -61,7 +61,12 @@ export default function BundleSelections({ product, variant, onVariantChange, qu
                 <SelectionCard selected image={product.images?.[variant?.image ?? 0]?.thumb} name={product.name}>
                     <div className="flex flex-col items-start gap-2 sm:flex-row sm:justify-between sm:gap-3">
                         <p className="text-[15px] leading-snug">{product.name}</p>
-                        <QuantitySelector value={quantity} onChange={onQuantityChange} size="sm" />
+                        <QuantitySelector
+                            value={quantity}
+                            onChange={onQuantityChange}
+                            max={Math.max(1, variant?.max_quantity ?? 1)}
+                            size="sm"
+                        />
                     </div>
                     {variant && <Price price={variant.price} compareAtPrice={variant.compare_at_price} currency={currency} />}
                     <select
@@ -97,6 +102,7 @@ export default function BundleSelections({ product, variant, onVariantChange, qu
                                 <QuantitySelector
                                     value={state.quantity}
                                     onChange={(value) => update({ quantity: value })}
+                                    max={Math.max(1, addOnVariant.max_quantity ?? 1)}
                                     size="sm"
                                     label={`${addOn.name} quantity`}
                                 />
@@ -105,7 +111,11 @@ export default function BundleSelections({ product, variant, onVariantChange, qu
                             {addOn.variants.length > 1 && (
                                 <select
                                     value={state.variantId}
-                                    onChange={(event) => update({ variantId: Number(event.target.value) })}
+                                    onChange={(event) => {
+                                        const variantId = Number(event.target.value);
+                                        const max = addOn.variants.find((v) => v.id === variantId)?.max_quantity ?? 1;
+                                        update({ variantId, quantity: Math.min(state.quantity, Math.max(1, max)) });
+                                    }}
                                     aria-label={`${addOn.name} option`}
                                     className={SELECT_CLASSES}
                                 >

@@ -1,53 +1,22 @@
-import AppLink from '@/components/site/AppLink';
 import CloudImage from '@/components/site/CloudImage';
+import { formatMoney } from '@/lib/money';
+import { Link } from '@inertiajs/react';
 import { useLayoutEffect, useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionTitle from './SectionTitle';
 
 import 'swiper/css';
 
-const SERIES = [
-    {
-        tab: 'Pioneering - X Series',
-        title: 'Dash Cam 4K Omni',
-        subtitle: 'The Next-Gen 360° Dash Cam with Dual Brilliance.',
-        image: 'index/img_x800.png',
-        background: 'index/img_x800_bg.png',
-        learnMoreHref: '/4komni',
-        buyNowHref: 'https://bit.ly/43jQrTI',
-    },
-    {
-        tab: 'With Screen - A Series',
-        title: 'Dash Cam 4K A810',
-        subtitle: 'Extreme Clarity. Extreme Security.',
-        image: 'index/img_a810.png',
-        background: 'index/img_a810_bg.png',
-        learnMoreHref: '/a810',
-        buyNowHref: 'https://70mai.store/collections/dash-cam/products/dash-cam-a810',
-    },
-    {
-        tab: 'Screenless - M Series',
-        title: 'Dash Cam M310',
-        subtitle: 'Next-Level Clarity within Reach.',
-        image: 'index/img_m310.png',
-        background: 'index/img_m310_bg.png',
-        learnMoreHref: '/m310',
-        buyNowHref: 'https://70mai.store/collections/dash-cam/products/m310-dash-cam',
-    },
-    {
-        tab: 'Streaming - S Series',
-        title: 'Dash Cam S500',
-        subtitle: 'Touch into the Brilliance of 3K Streaming.',
-        image: 'index/img_s500.png',
-        background: 'index/img_s500_bg.png',
-        learnMoreHref: '/s500',
-        buyNowHref: 'https://70mai.store/collections/dash-cam/products/s500-rearview-dash-cam',
-    },
-];
-
 const BUTTON_CLASSES = 'inline-block w-[135px] rounded-full border border-muted py-2 text-center text-xs md:min-w-[130px]';
 
-export default function SeriesExplorer() {
+/**
+ * "Explore By Series": one tab per product in Lunar's "Explore by Series"
+ * collection (order and membership are managed in the Lunar admin).
+ *
+ * @param {{ series: Array<{ id: number, slug: string, url: string, short_name: string, series: ?string,
+ *   tagline: ?string, image: ?string, price: ?number, price_varies: boolean, available: boolean }> }} props
+ */
+export default function SeriesExplorer({ series = [] }) {
     const [activeIndex, setActiveIndex] = useState(0);
     const [swiper, setSwiper] = useState(null);
     const [indicator, setIndicator] = useState({ left: 0, width: 180 });
@@ -66,7 +35,11 @@ export default function SeriesExplorer() {
         window.addEventListener('resize', measure);
 
         return () => window.removeEventListener('resize', measure);
-    }, [activeIndex]);
+    }, [activeIndex, series.length]);
+
+    if (series.length === 0) {
+        return null;
+    }
 
     return (
         <section className="w-full">
@@ -78,9 +51,9 @@ export default function SeriesExplorer() {
                 <div className="hide-scrollbar w-full overflow-x-scroll">
                     <div className="relative mx-auto mb-12 w-fit md:mb-9">
                         <div role="tablist" className="mb-4 flex w-fit justify-center gap-x-5 md:mb-6 md:gap-x-14">
-                            {SERIES.map((series, index) => (
+                            {series.map((product, index) => (
                                 <button
-                                    key={series.tab}
+                                    key={product.id}
                                     ref={(el) => (tabRefs.current[index] = el)}
                                     type="button"
                                     role="tab"
@@ -90,7 +63,7 @@ export default function SeriesExplorer() {
                                         index === activeIndex ? 'font-bold' : 'opacity-50'
                                     }`}
                                 >
-                                    {series.tab}
+                                    {product.series || product.short_name}
                                 </button>
                             ))}
                         </div>
@@ -106,30 +79,46 @@ export default function SeriesExplorer() {
             </div>
 
             <Swiper onSwiper={setSwiper} onSlideChange={(s) => setActiveIndex(s.activeIndex)} className="w-full">
-                {SERIES.map((series) => (
-                    <SwiperSlide key={series.title} className="bg-white">
+                {series.map((product) => (
+                    <SwiperSlide key={product.id} className="bg-white">
                         <div className="flex w-full flex-col-reverse bg-[#F9F9F9] md:flex-row">
-                            <div className="w-full md:relative md:w-1/2">
-                                <div className="w-full md:absolute md:left-0 md:top-0 md:flex md:h-full md:items-start md:justify-center">
-                                    <CloudImage src={series.image} alt={series.title} className="w-full" />
-                                </div>
-                                <CloudImage src={series.background} className="hidden w-full md:block" />
+                            <div className="relative aspect-square w-full bg-[#F3F3F3] md:aspect-auto md:w-1/2">
+                                {product.image && (
+                                    <img
+                                        src={product.image}
+                                        alt={product.short_name}
+                                        loading="lazy"
+                                        className="absolute inset-0 h-full w-full object-contain p-6 mix-blend-multiply md:p-10"
+                                    />
+                                )}
                             </div>
 
                             <div className="w-full md:relative md:w-1/2">
                                 <CloudImage src="index/img_bg.png" className="hidden w-full md:block" />
-                                <div className="flex min-h-70 w-full flex-col items-center justify-center md:absolute md:left-0 md:top-0 md:h-full md:items-start md:pl-[24%] md:pt-[5%]">
-                                    <h3 className="text-center text-3xl font-bold md:text-left md:text-2xl">{series.title}</h3>
-                                    <p className="mb-8 mt-5 text-center text-base font-light md:my-5 md:text-left md:text-sm">
-                                        {series.subtitle}
-                                    </p>
+                                <div className="flex min-h-70 w-full flex-col items-center justify-center px-5 md:absolute md:left-0 md:top-0 md:h-full md:items-start md:pl-[24%] md:pt-[5%]">
+                                    <h3 className="text-center text-3xl font-bold md:text-left md:text-2xl">{product.short_name}</h3>
+                                    {product.tagline && (
+                                        <p className="mt-5 text-center text-base font-light md:my-5 md:text-left md:text-sm">{product.tagline}</p>
+                                    )}
+                                    {product.price !== null && (
+                                        <p className="mb-8 mt-3 text-center text-sm md:mb-5 md:mt-0 md:text-left">
+                                            {product.available ? (
+                                                <>
+                                                    {product.price_varies && 'From '}
+                                                    {formatMoney(product.price)}
+                                                </>
+                                            ) : (
+                                                <span className="text-muted">Sold out</span>
+                                            )}
+                                        </p>
+                                    )}
                                     <div className="flex flex-row">
-                                        <AppLink href={series.learnMoreHref} className={`${BUTTON_CLASSES} mr-5 md:mr-0`}>
+                                        <Link href={`/products/${product.slug}#details`} className={`${BUTTON_CLASSES} mr-5 md:mr-0`}>
                                             Learn More
-                                        </AppLink>
-                                        <AppLink href={series.buyNowHref} className={`${BUTTON_CLASSES} md:ml-8`}>
+                                        </Link>
+                                        <Link href={`/products/${product.slug}`} className={`${BUTTON_CLASSES} md:ml-8`}>
                                             Buy Now
-                                        </AppLink>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

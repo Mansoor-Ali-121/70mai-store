@@ -1,0 +1,883 @@
+[
+    {
+        "handle": "dash-cam-4k-omni",
+        "name": "70mai Dash Cam 4K Omni 360 Full View with Dual Sony STARVIS 2, AI 2.0 & 4G LTE Supported",
+        "product_type": "Dash Cam",
+        "brand": "70mai",
+        "collections": [
+            "dash-cams"
+        ],
+        "attributes": {
+            "short_name": "70mai Dash Cam 4K Omni",
+            "series": "Pioneering - X Series",
+            "tagline": "The Next-Gen 360° Dash Cam with Dual Brilliance",
+            "notice": "Compatible 4G carriers: AT&T 4G and Telstra",
+            "promo": "Buy One get One accessory pack free: Add the 4K Omni accessory pack into cart."
+        },
+        "description": "<ul>\n<li>\n<p><span><span><strong>Dual-Channel Recording with 4K Image Quality:</strong> Capture crystal-clear 4K footage from the front camera (Sony STARVIS 2 IMX678 sensor) and 1080P from the rear, both with HDR support. Experience smooth 4K 60FPS* recording for detailed and fluid video even at high speeds.</span></span><span></span></p>\n</li>\n<li>\n<p><span><span><span><strong>Immersive 360° Full-View:</strong> With a 360° rotating design powered by dual Hall Effect sensors and the equipped magnetic system, the 4K Omni delivers precise lens positioning and flawless rotating, ensuring zero blind spots while doubling as a fun travel vlog recorder to capture every moment of your journey.</span></span></span></p>\n</li>\n<li>\n<p><span><span><strong>Enhanced Night Vision and Parking Surveillance:</strong> 70mai Night Owl Vision and Lumi Vision technologies ensure clear recordings in low-light conditions while driving and parked. AI Motion Detection 2.0 with dual Hall Effect sensors provides accurate tracking and recording of potential incidents.</span></span><span></span></p>\n</li>\n<li>\n<p><span><span><strong>Comprehensive Parking Protection:</strong> Dual-channel collision detection and time-lapse recording activate the front and rear cameras in parking mode. 4G compatibility enables instant app alerts, car location, live route tracking, and app live streaming for remote monitoring.</span></span><span></span></p>\n</li>\n<li>\n<p><span><span><strong>Advanced Safety Features:</strong> Buffered emergency recording captures crucial footage before, during, and after an incident. Built-in GPS tracks speed, time, and location. Super-sensing ADAS provides lane departure, forward collision, and other driver-assistance warnings.</span></span><span></span></p>\n</li>\n<li>\n<p><span><span><strong>Reliable Power and Storage:</strong> A built-in supercapacitor ensures reliable operation and a long lifespan in extreme temperatures. Battery voltage monitoring prevents car battery drain. Supports up to 512GB of external storage for ample recording capacity.</span></span><span></span></p>\n</li>\n<li>\n<p><span><span><strong>Smart Connectivity and User Experience:</strong> Wi-Fi 6 (5GHz) enables fast file transfers. Voice control (multiple languages) and the </span><span>MaiX</span><span> in-car AI mate provide hands-free operation and interactive features.</span></span><span></span></p>\n</li>\n<li>\n<p><span><span><strong>High-Speed Transfer:</strong> Download speeds up to 20MB/s with Wi-Fi 6 5GHz.</span></span><span></span></p>\n</li>\n<li>\n<p><span><span><strong>Additional Features:</strong> Road Story Filter adds driving data and effects to footage for sharing.</span></span></p>\n</li>\n</ul>\n<p><span><span>*4K 60FPS is exclusive to single-channel mode, while dual-channel mode supports up to 4K 30FPS.</span></span></p>",
+        "options": [
+            {
+                "handle": "channel",
+                "name": "Channel",
+                "display": "button",
+                "values": [
+                    {
+                        "name": "Front+Rear Cam"
+                    },
+                    {
+                        "name": "Front Cam"
+                    }
+                ]
+            },
+            {
+                "handle": "color",
+                "name": "Color",
+                "display": "swatch",
+                "values": [
+                    {
+                        "name": "Black",
+                        "swatch": "#111111"
+                    },
+                    {
+                        "name": "Red & White",
+                        "swatch": "#E3262E"
+                    }
+                ]
+            }
+        ],
+        "variants": [
+            {
+                "sku": "6830AA800385",
+                "options": {
+                    "channel": "Front+Rear Cam",
+                    "color": "Black"
+                },
+                "price": 26999,
+                "compare_price": 34999,
+                "stock": 100,
+                "image": 0
+            },
+            {
+                "sku": "6830AA800383",
+                "options": {
+                    "channel": "Front+Rear Cam",
+                    "color": "Red & White"
+                },
+                "price": 26999,
+                "compare_price": 34999,
+                "stock": 100,
+                "image": 1
+            },
+            {
+                "sku": "6830AA800378",
+                "options": {
+                    "channel": "Front Cam",
+                    "color": "Black"
+                },
+                "price": 19999,
+                "compare_price": 24999,
+                "stock": 100,
+                "image": 2
+            },
+            {
+                "sku": "6830AA800377",
+                "options": {
+                    "channel": "Front Cam",
+                    "color": "Red & White"
+                },
+                "price": 19999,
+                "compare_price": 24999,
+                "stock": 100,
+                "image": 3
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_time_badge_2.jpg?v=1761202621&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-dual-channel_red.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_time_badge.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-red-white.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_01.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_02.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_03.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_04.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_05.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_06.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_07.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_08.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_09.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_10.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_11.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_13.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_12_1.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_14.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_15.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-ksp_16.jpg?v=1761190082&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k_Omni_reddot_award.jpg?v=1761190082&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card",
+            "4g-hardwire-kit",
+            "cpl-filter-for-4k-omni"
+        ]
+    },
+    {
+        "handle": "4k-t800-dash-cam",
+        "name": "70mai Dash Cam 4K T800 3-Channel w/ Dual 4K, STARVIS 2 IMX678, HDR Night Vision, AI Detection, Emergency Record, 4G LTE & Supercapacitor",
+        "product_type": "Dash Cam",
+        "brand": "70mai",
+        "collections": [
+            "dash-cams"
+        ],
+        "attributes": {
+            "short_name": "70mai Dash Cam 4K T800",
+            "tagline": "Triple View. Dual 4K. Full Story.",
+            "notice": "Compatible 4G carriers: AT&T 4G and Telstra"
+        },
+        "description": "<div>\n<ul>\n<li>\n<strong>Dual Sony STARVIS 2 Technology: </strong><span>Feature larger pixel size for enhanced light capture, delivering sharper, more detailed footage even in low-light settings.</span>\n</li>\n</ul>\n</div>\n<div>\n<div>\n<ul>\n<li>\n<strong>70mai Night Owl Vision: </strong><span>70mai's exclusive technology that produces clearer nighttime images with less noise, balanced exposure, and improved glare control.</span><strong></strong>\n</li>\n</ul>\n</div>\n<div>\n<div>\n<div>\n<ul>\n<li>\n<strong>Dual 4K 3-Channel: </strong><span>The 4K T800 combines a space-saving integrated front and interior camera with a rear camera, delivering comprehensive 3-angle views to virtually eliminate blind spots.</span>\n</li>\n</ul>\n</div>\n<div>\n<ul>\n<li><span><strong>Supercapacitor Solution: </strong>Withstands extreme working temperatures and boasts a long lifespan of charging cycles.</span></li>\n</ul>\n</div>\n<div>\n<ul>\n<li>\n<span><strong>4G LTE Connectivity*: </strong>Ensure uninterrupted communication with your vehicle from any location. (</span>*The 70mai 4G Hardwire Kit is required and sold separately.)</li>\n</ul>\n</div>\n<div>\n<ul>\n<li><span><strong>3-Channel HDR Recording: </strong>The 4K T800 supports HDR recording across all three channels, stably capturing highlight-shadow details to deliver an enhanced dynamic range.</span></li>\n</ul>\n</div>\n<div>\n<div>\n<ul>\n<li>\n<strong>Smart Parking Guardian Mode*: </strong><span>Feature AI Motion Detection, Collision Detection &amp; Time-Lapse Recording, triggering all three cameras to record suspicious activity or impact, while capturing continuous footage at 1 FPS to save storage.<b> (</b></span>*The 70mai Hardwire Kit is required and sold separately.)</li>\n</ul>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<ul>\n<li>\n<strong>Buffered Emergency Recording: </strong><span>Capture up to 3 minutes of pre-collision, the impact, and 30 seconds after, ensuring no vital evidence is missed in case of sudden impact or emergency.</span>\n</li>\n</ul>\n</div>\n<div>\n<div>\n<ul>\n<li>\n<strong>Battery Voltage Monitoring: </strong><span>Provide 24/7 status, 9 levels of protection against drain, and remote/auto low-voltage power-off.</span>\n</li>\n</ul>\n</div>\n<div>\n<ul>\n<li><span><strong>70mai Lumi Vision for Parking: </strong>An industry-first technology designed to ensure clear visibility around the vehicle in near-total darkness.</span></li>\n</ul>\n</div>\n<div>\n<div>\n<ul>\n<li>\n<strong>Super-Sensing ADAS: </strong><span>Warn you in advance to avoid traffic safety risks to provide an extra layer of safety for your journey.</span>\n</li>\n</ul>\n</div>\n<div>\n<div>\n<ul>\n<li>\n<strong>Built-In GPS: </strong><span>Capture speed, time, and coordinates, seamlessly logged for review in the 70mai App, offering proof of travel and route </span>optimization.</li>\n</ul>\n</div>\n<div>\n<div>\n<ul>\n<li>\n<strong>Voice Control: </strong><span>Beyond English and Mandarin, the 4K T800 now supports Japanese and Italian voice control. Use simple commands for photos/videos and audio on/off.</span>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<ul>\n<li>\n<strong>Picture-in-Picture Mode: </strong><span>The 4K T800 offers simultaneous front, rear, and interior footage on its screen, providing an omniscient, multi-angle view of your vehicle's surroundings for complete peace of mind.</span>\n</li>\n</ul>\n</div>\n<div>\n<div>\n<div>\n<div>\n<ul>\n<li>\n<strong>MaiColor Vivid+ Solutionââ€? </strong><span>An exclusive algorithm that enhances image quality with Auto Exposure Technology for natural balance, Selective Image Processing for key details, and Windshield Compensation for accurate color and transparency.</span>\n</li>\n</ul>\n</div>\n<div>\n<div>\n<ul>\n<li>\n<strong>4K 60FPS: </strong><span>Capture every detail with unrivaled clarity and enjoy ultra-smooth motion for a truly cinematic driving experience. (</span>*4K 60FPS is exclusive to single-channel mode.)</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+        "options": [
+            {
+                "handle": "package",
+                "name": "Package",
+                "display": "button",
+                "values": [
+                    {
+                        "name": "Front+Rear+128G"
+                    },
+                    {
+                        "name": "Front+Rear+256G"
+                    },
+                    {
+                        "name": "Front+Rear+512G"
+                    }
+                ]
+            }
+        ],
+        "variants": [
+            {
+                "sku": "6830AA800727",
+                "options": {
+                    "package": "Front+Rear+128G"
+                },
+                "price": 30999,
+                "compare_price": 31999,
+                "stock": 100,
+                "image": 0
+            },
+            {
+                "sku": "6830AA800667",
+                "options": {
+                    "package": "Front+Rear+256G"
+                },
+                "price": 31999,
+                "compare_price": 34999,
+                "stock": 100,
+                "image": 1
+            },
+            {
+                "sku": "6830AA800486",
+                "options": {
+                    "package": "Front+Rear+512G"
+                },
+                "price": 36999,
+                "compare_price": 39999,
+                "stock": 100,
+                "image": 2
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/T800-128.jpg?v=1784530394&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/T800-41-256G.jpg?v=1785311290&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-t800-option_7.jpg?v=1754383867&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/T800.jpg?v=1756114599&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-t800-ksp_01.jpg?v=1756114599&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-t800-ksp_02.jpg?v=1756114599&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-t800-ksp_03.jpg?v=1756114600&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-t800-ksp_04.jpg?v=1756114600&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-t800-ksp_05.jpg?v=1756114600&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-t800-ksp_06.jpg?v=1756114600&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card",
+            "4g-hardwire-kit",
+            "battery-pack"
+        ]
+    },
+    {
+        "handle": "microsd-card",
+        "name": "70mai Micro SD Card for Dash Cam",
+        "product_type": "Accessory",
+        "brand": "70mai",
+        "collections": [
+            "accessories"
+        ],
+        "attributes": {
+            "short_name": "70mai Micro SD Card"
+        },
+        "description": "<div>\n<div>\n<ul>\n<li>\n<p><span>The 70mai microSD cards are designed to function seamlessly with 70mai dashcams. </span></p>\n</li>\n<li>\n<p>The 512G variant is compatible with Dash Cam 4K Omni, T800 and A800SE.</p>\n</li>\n<li>\n<p>The 256G variant is suitable for use with Dash Cam 4K Omni, T800, A800SE, A810, A800S and A510.</p>\n</li>\n<li>\n<p><span>The 128G variant is suitable for use with the following dashcams in the 70mai lineup: </span><span>Dash Cam 3, M300, Lite 2, A400, A500S, A800S, A810, S500, A200, 4K Omni, T800, A800SE and A510.</span></p>\n</li>\n<li>\n<p><span>The 32G and 64G variants are compatible with the following dashcams: </span><span>Dash Cam 3, 1S, M300, Lite 2, A400, A500S, A800S, A810, A200, S500 and A510.</span></p>\n</li>\n</ul>\n</div>\n</div>\n<ul></ul>\n<p><button></button><button></button><button></button></p>",
+        "options": [
+            {
+                "handle": "capacity",
+                "name": "Capacity",
+                "display": "button",
+                "values": [
+                    {
+                        "name": "256G"
+                    },
+                    {
+                        "name": "128G"
+                    },
+                    {
+                        "name": "64G"
+                    },
+                    {
+                        "name": "32G"
+                    },
+                    {
+                        "name": "512G"
+                    }
+                ]
+            }
+        ],
+        "variants": [
+            {
+                "sku": "5350AA800004",
+                "options": {
+                    "capacity": "256G"
+                },
+                "price": 5999,
+                "compare_price": null,
+                "stock": 100,
+                "image": 0
+            },
+            {
+                "sku": "5350AA800007",
+                "options": {
+                    "capacity": "128G"
+                },
+                "price": 4599,
+                "compare_price": null,
+                "stock": 100,
+                "image": 1
+            },
+            {
+                "sku": "5350AA800006",
+                "options": {
+                    "capacity": "64G"
+                },
+                "price": 3199,
+                "compare_price": null,
+                "stock": 100,
+                "image": 2
+            },
+            {
+                "sku": "5350AA000069",
+                "options": {
+                    "capacity": "32G"
+                },
+                "price": 1999,
+                "compare_price": null,
+                "stock": 0,
+                "image": 3
+            },
+            {
+                "sku": "4850AA800005",
+                "options": {
+                    "capacity": "512G"
+                },
+                "price": 9999,
+                "compare_price": 12999,
+                "stock": 100,
+                "image": 4
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai-256g-microsd-card_2.jpg?v=1746609154&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai-sd-card-128g_2.jpg?v=1746609155&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai-sd-card-64g_2.jpg?v=1746609154&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai-sd-card-32g_2.jpg?v=1746609154&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/512G.jpg?v=1746609155&width=1200"
+        ],
+        "cross_sells": []
+    },
+    {
+        "handle": "4g-hardwire-kit",
+        "name": "70mai Hardwire Kit with USB Type-C Port",
+        "product_type": "Accessory",
+        "brand": "70mai",
+        "collections": [
+            "accessories",
+            "hardwire-kits"
+        ],
+        "attributes": {
+            "short_name": "70mai Hardwire Kit"
+        },
+        "description": "<p><strong>UP03</strong></p>\n<ul>\n<li>24H Smart Parking Surveillance</li>\n<li>for all countries and compatible with USB Type-C Dash Cams*</li>\n</ul>\n<p>*If you own a dash cam with a micro USB port, the <a title=\"UP02\" href=\"https://70mai.store/products/up02-hardwire-kit\">UP02</a> is the hardwire kit you need.</p>\n<p><strong>UP04 &amp; UP05</strong></p>\n<ul>\n<li>24H Smart Parking Surveillance</li>\n<li>support 4G LTE <span>connectivity, including </span>Real-Time Monitoring, Instant App Alert, GPS-Enabled Car Locator. </li>\n<li>UP04 is <span>only</span> for <span>Australia (Telstra 4G Carrier recommended) and Korea; UP05 is only for the US (AT&amp;T Carrier recommended).</span><strong></strong>\n</li>\n<li><span>for Dash Cam A510/ A810/ Omni/ 4K Omni/ 4K T800.</span></li>\n</ul>\n<p><button></button><button></button></p>",
+        "options": [
+            {
+                "handle": "model",
+                "name": "Model",
+                "display": "button",
+                "values": [
+                    {
+                        "name": "4G UP05"
+                    },
+                    {
+                        "name": "4G UP04"
+                    },
+                    {
+                        "name": "Adjustable UP06"
+                    },
+                    {
+                        "name": "UP03"
+                    }
+                ]
+            }
+        ],
+        "variants": [
+            {
+                "sku": "6842AA800129",
+                "options": {
+                    "model": "4G UP05"
+                },
+                "price": 6999,
+                "compare_price": null,
+                "stock": 100,
+                "image": 0
+            },
+            {
+                "sku": "6842AA800111",
+                "options": {
+                    "model": "4G UP04"
+                },
+                "price": 4999,
+                "compare_price": null,
+                "stock": 0,
+                "image": 1
+            },
+            {
+                "sku": "6839AA800308",
+                "options": {
+                    "model": "Adjustable UP06"
+                },
+                "price": 3599,
+                "compare_price": null,
+                "stock": 100,
+                "image": 2
+            },
+            {
+                "sku": "6839AA800144",
+                "options": {
+                    "model": "UP03"
+                },
+                "price": 2799,
+                "compare_price": null,
+                "stock": 100,
+                "image": 3
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/20260408-155035.jpg?v=1776739161&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/up04-4g-hardwire-kit.jpg?v=1776739161&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/UP06.jpg?v=1776739161&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai-hardwire-kit-up03-for-dash-cam-omni-a810-m500_2.jpg?v=1776739161&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card"
+        ]
+    },
+    {
+        "handle": "cpl-filter-for-4k-omni",
+        "name": "70mai CPL Filter for Dash Cam 4K Omni",
+        "product_type": "Accessory",
+        "brand": "70mai",
+        "collections": [
+            "accessories"
+        ],
+        "attributes": {
+            "short_name": "70mai CPL Filter for 4K Omni"
+        },
+        "description": "<div>\n<div><span>**Before purchasing, please note that the tinting film on your front windshield may impact the functionality of CPL (Circular Polarizing Lens) filters.</span></div>\n<div>\n<ul>\n<li><span><strong>Reduce surface reflections on your windshield or intense sun:</strong> making it easier to see the road ahead.</span></li>\n<li><span><strong>Enhanced color saturation:</strong> for more vivid and accurate colors in your footage.</span></li>\n<li><span><strong>Protect your lens from fingerprint, scratch, and dirt:</strong> for clearer and more durable footage.</span></li>\n</ul>\n</div>\n</div>\n<p><br></p>\n<ul></ul>\n<p><button></button> <button></button><button></button><button></button></p>\n<div>\n<div><br></div>\n</div>",
+        "options": [],
+        "variants": [
+            {
+                "sku": "6839AA800276",
+                "options": {},
+                "price": 1399,
+                "compare_price": 2699,
+                "stock": 100,
+                "image": null
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-cpl_3.jpg?v=1741243126&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-cpl.jpg?v=1741243126&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4k-omni-cpl_2.jpg?v=1741243127&width=1200"
+        ],
+        "cross_sells": []
+    },
+    {
+        "handle": "battery-pack",
+        "name": "70mai Battery Pack for Dash Cam",
+        "product_type": "Accessory",
+        "brand": "70mai",
+        "collections": [
+            "accessories"
+        ],
+        "attributes": {
+            "short_name": "70mai Battery Pack"
+        },
+        "description": "<p><strong>Extended Parking Surveillance Duration: </strong>Seamlessly utilizes stored energy, ensuring uninterrupted surveillance while safeguarding your vehicle's battery life during parking.</p>\n<p><strong>Two Charging Setups: </strong>Cigarette lighter power for simplicity &amp; hardwire connection for faster charging.</p>\n<p><strong>Extensive Compatibility*: </strong>Compatible with 70mai and most other dash cams with parking surveillance cables, ensuring seamless integration for various setups.</p>\n<p><strong>Automatic Current Limiting: </strong>Dynamically adjusts the charging current based on the charging method, preventing battery depletion.</p>\n<p><strong>Delayed Charging: </strong>Starts charging 20 seconds after vehicle startup, preventing excessive load on the battery.</p>\n<p><strong>Enhanced Battery Protection: </strong>Safeguards against temperature extremes, overcharge, short-circuit, and more for battery longevity.</p>\n<p>*For Cigarette Lighter Solution, if you are using a third-party dash cam or 4G hardwire kit, You'll need the <a href=\"https://70mai.store/products/parking-surveillance-cable-adapter\" title=\"parking surveillance adapter\" rel=\"noopener\" target=\"_blank\">70mai Parking Surveillance Cable Adapter</a> to work with the battery pack.</p>\n<!---->",
+        "options": [
+            {
+                "handle": "installation",
+                "name": "Installation",
+                "display": "button",
+                "values": [
+                    {
+                        "name": "Fuse Box Solution"
+                    },
+                    {
+                        "name": "Cigarette Lighter Solution"
+                    }
+                ]
+            }
+        ],
+        "variants": [
+            {
+                "sku": "6839AA800170",
+                "options": {
+                    "installation": "Fuse Box Solution"
+                },
+                "price": 21999,
+                "compare_price": null,
+                "stock": 100,
+                "image": 0
+            },
+            {
+                "sku": "6839AA800258",
+                "options": {
+                    "installation": "Cigarette Lighter Solution"
+                },
+                "price": 18899,
+                "compare_price": 20999,
+                "stock": 0,
+                "image": 1
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Power_bank_-_fuse_box_solution.jpg?v=1742898384&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Power_bank_-_cigarette_lighter_solution.jpg?v=1742898384&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Power_bank_-_front.jpg?v=1742898383&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Power_bank_-_Slope.jpg?v=1742898383&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Power_bank_-_two_charging.jpg?v=1742898383&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Power_bank_-_compatibility.jpg?v=1742898383&width=1200"
+        ],
+        "cross_sells": [
+            "4g-hardwire-kit"
+        ]
+    },
+    {
+        "handle": "dash-cam-4k-a900-ultra",
+        "name": "70mai Dash Cam 4K A900 Ultra – Flagship Dual 4K HDR Camera with Sony STARVIS 2 IMX678 Sensors",
+        "product_type": "Dash Cam",
+        "brand": "70mai",
+        "collections": [
+            "dash-cams"
+        ],
+        "attributes": {
+            "short_name": "70mai Dash Cam 4K A900 Ultra",
+            "tagline": "The Flagship of Dual 4K Vision. Every Frame Synced."
+        },
+        "description": "<p><strong>Dual Sony STARVIS 2 IMX678 Sensors</strong>：Powered by dual Sony STARVIS 2 IMX678 sensors, A900 Ultra delivers flagship-level imaging performance for both front and rear cameras. With advanced sensor technology, it captures sharper details, clearer license plates, and more reliable road evidence in every driving scenario.</p>\n<p><strong>Dual True 4K HDR Recording：</strong>Experience true 4K HDR recording from both front and rear cameras. A900 Ultra delivers ultra-clear footage with balanced exposure and realistic details, while customizable image settings and smart HDR switching adapt to different lighting conditions.</p>\n<p><strong>LVDS Lossless Digital Transmission：</strong>Featuring an industry-first combination of Sony STARVIS 2 IMX678 and LVDS digital transmission, A900 Ultra preserves original image data without compression or quality loss. With ultra-low 20ms latency and a slim cable design, it delivers real-time rear 4K transmission with easier installation.</p>\n<p><strong>Smart Parking Guardian Mode 2.0：</strong>Upgraded with dual-channel monitoring, AI detection, and pre-recording technology, A900 Ultra provides comprehensive parking protection. It captures complete event details from both front and rear cameras, helping secure reliable evidence when your vehicle is unattended.</p>\n<p><strong>AI-Powered Imaging Enhancement：</strong>A900 Ultra combines 70mai Night Owl Vision™ 2.0, MaiColor Vivid+ Solution™ 2.0, and Lumi Vision™ technologies to deliver smarter image processing across driving and parking scenarios. From bright daylight to extreme darkness, it intelligently balances exposure, reduces noise, enhances details, and preserves critical evidence with exceptional clarity.</p>",
+        "options": [
+            {
+                "handle": "package",
+                "name": "Package",
+                "display": "button",
+                "values": [
+                    {
+                        "name": "A900 Ultra-RC43S"
+                    },
+                    {
+                        "name": "A900 Ultra-RC43S-128GB"
+                    },
+                    {
+                        "name": "A900 Ultra-RC43S-128GB-UP12"
+                    },
+                    {
+                        "name": "A900 Ultra-RC43S-128GB+Battery"
+                    },
+                    {
+                        "name": "A900 Ultra-RC43S-128GB+UP12+Battery"
+                    }
+                ]
+            }
+        ],
+        "variants": [
+            {
+                "sku": "A900U-01",
+                "options": {
+                    "package": "A900 Ultra-RC43S"
+                },
+                "price": 23999,
+                "compare_price": 29999,
+                "stock": 100,
+                "image": 0
+            },
+            {
+                "sku": "A900U-02",
+                "options": {
+                    "package": "A900 Ultra-RC43S-128GB"
+                },
+                "price": 27999,
+                "compare_price": 34999,
+                "stock": 100,
+                "image": 1
+            },
+            {
+                "sku": "A900U-03",
+                "options": {
+                    "package": "A900 Ultra-RC43S-128GB-UP12"
+                },
+                "price": 34999,
+                "compare_price": 43999,
+                "stock": 100,
+                "image": 2
+            },
+            {
+                "sku": "A900U-04",
+                "options": {
+                    "package": "A900 Ultra-RC43S-128GB+Battery"
+                },
+                "price": 34999,
+                "compare_price": 43999,
+                "stock": 100,
+                "image": 3
+            },
+            {
+                "sku": "A900U-05",
+                "options": {
+                    "package": "A900 Ultra-RC43S-128GB+UP12+Battery"
+                },
+                "price": 39999,
+                "compare_price": 49999,
+                "stock": 100,
+                "image": 4
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/A900U_RC43S_a2a943bc-f612-472e-b174-3e182c064363.jpg?v=1789556104&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/A900U_RC43S_128G_CPL_e30a6b7e-5c2a-403f-a4ac-1e538b68b3c7.jpg?v=1789556120&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/A900U_RC43S_128GB_UP12_CPL_fa2e44c8-34c0-444d-8396-3e540b85e52d.jpg?v=1789556140&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/A900U_RC43S_128GB_Battery_Mini_CPL_b37001e1-400b-4d28-8053-4d55e31d5d54.jpg?v=1789556191&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/A900U_RC43S_128G_UP12_f83e4e39-a62f-4838-88bd-c717c76a9648.jpg?v=1789556236&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/3034a1133efe01daba919094b70c6310_6a89f74d-c3ae-45c5-982f-004025f662f9.jpg?v=1789370172&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/A900U_RC43S_ccd5ff0f-1f98-4fbb-a8a5-7697322154c7.jpg?v=1789370172&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/A900U_RC43S.jpg?v=1789370172&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card",
+            "4g-hardwire-kit",
+            "battery-pack"
+        ]
+    },
+    {
+        "handle": "dash-cam-4k-a810-lite",
+        "name": "70mai 4K A810 Lite Dash Cam Dual Channel HDR Night Vision",
+        "product_type": "Dash Cam",
+        "brand": "70mai",
+        "collections": [
+            "dash-cams"
+        ],
+        "attributes": {
+            "short_name": "70mai Dash Cam 4K A810 Lite",
+            "tagline": "Lite on Size. Strong in 4K Detail."
+        },
+        "description": "<ul>\n<li>\n<span><b>4K Front &amp; 1080P Rear Recording：</b></span><span>Capture every drive in crystal-clear 4K HDR with optional 1080P rear recording. Wide-angle coverage delivers reliable evidence and greater peace of mind on every journey.</span>\n</li>\n<li><span><b>Enhanced Night Vision：</b>An F1.55 large-aperture lens and Smart HDR capture brighter, clearer footage in low-light conditions while reducing glare from headlights for improved nighttime visibility.</span></li>\n<li><span><b>4G Remote Monitoring: </b></span></li>\n<li>\n<div>\n<div><span>Stay connected wherever you are with optional 4G connectivity. View live footage, receive instant alerts, track your vehicle, and monitor it remotely through the 70mai App.*4G Hardwire Kit required.</span></div>\n</div>\n</li>\n<li>\n<span><b>Wi-Fi 6 &amp; Smart App Control：</b></span><span>Transfer videos at up to 25MB/s with dual-band Wi-Fi 6. Preview, download, share recordings, and manage your dash cam effortlessly through the 70mai App.</span>\n</li>\n<li>\n<span><b>24-Hour Parking Protection：</b></span><span>Keep your vehicle protected with Collision Detection, Emergency Recording, and Time-Lapse Recording, providing continuous surveillance even when you're away.*Hardwire Kit required.</span>\n</li>\n<li>\n<span><b>Built-in GPS &amp; Voice Control：</b></span><span>Track your route, speed, and location with integrated GPS while controlling key functions hands-free using simple voice commands for a safer driving experience.</span>\n</li>\n<li><span><b>Reliable Supercapacitor：</b>Designed with a supercapacitor instead of a lithium battery for greater safety, enhanced durability, and reliable performance in extreme temperatures.</span></li>\n<li><span><b>Compact &amp; Easy Installation：</b>The compact design fits discreetly behind your rearview mirror for an unobstructed view, while the quick installation process gets you ready to drive in minutes.</span></li>\n<li>\n<span><b>Up to 512GB Storage：</b>Support for up to 512GB microSD cards provides extended recording time and fewer overwrites, making it ideal for daily commuting and long-distance travel.</span>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</li>\n</ul>",
+        "options": [
+            {
+                "handle": "package",
+                "name": "Package",
+                "display": "button",
+                "values": [
+                    {
+                        "name": "Front+Rear Cam+64GB"
+                    },
+                    {
+                        "name": "Front+Rear Cam+64GB+UP05"
+                    },
+                    {
+                        "name": "Front+Rear Cam+64GB+UP03"
+                    },
+                    {
+                        "name": "Front+Rear Cam+64GB+UP06"
+                    }
+                ]
+            }
+        ],
+        "variants": [
+            {
+                "sku": "6830AA800665",
+                "options": {
+                    "package": "Front+Rear Cam+64GB"
+                },
+                "price": 8499,
+                "compare_price": 14999,
+                "stock": 100,
+                "image": 0
+            },
+            {
+                "sku": "A810L-02",
+                "options": {
+                    "package": "Front+Rear Cam+64GB+UP05"
+                },
+                "price": 15498,
+                "compare_price": 21998,
+                "stock": 100,
+                "image": 1
+            },
+            {
+                "sku": "A810L-03",
+                "options": {
+                    "package": "Front+Rear Cam+64GB+UP03"
+                },
+                "price": 11298,
+                "compare_price": 17798,
+                "stock": 100,
+                "image": null
+            },
+            {
+                "sku": "A810L-04",
+                "options": {
+                    "package": "Front+Rear Cam+64GB+UP06"
+                },
+                "price": 12098,
+                "compare_price": 18598,
+                "stock": 100,
+                "image": null
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/1_902e51c4-dab3-4387-9ed9-a6b7d140e3fa.jpg?v=1783933796&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/A810Lite_rear_64g_UP05.jpg?v=1786608265&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/1_4G.jpg?v=1784103811&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/2_ab3e1e7b-aaf9-4c3d-92bd-c556e3d8dff0.jpg?v=1784103810&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/3.jpg?v=1784103810&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/4_4G.jpg?v=1784103810&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/5.jpg?v=1784103810&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/6.jpg?v=1784103810&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card",
+            "4g-hardwire-kit"
+        ]
+    },
+    {
+        "handle": "dash-cam-m310-plus-4k",
+        "name": "70mai Dash Cam M310 Plus 4K",
+        "product_type": "Dash Cam",
+        "brand": "70mai",
+        "collections": [
+            "dash-cams"
+        ],
+        "attributes": {
+            "short_name": "70mai Dash Cam M310 Plus 4K",
+            "tagline": "Tiny Body. Big 4K Performance."
+        },
+        "description": "<div>\n<div><span>Experience true 4K clarity in an ultra-compact, screenless dash cam designed to stay discreet and out of your line of sight. With enhanced low-light imaging, smart parking protection, and effortless app control, the M310 Plus 4K keeps every drive clearly covered—without the bulk or distraction.</span></div>\n<div>\n<div>\n<div>\n<span><b>Big 4K Performance：</b></span><span>Record in true 4K to preserve finer details such as license plates and road signs. A 140° field of view captures more of the road ahead without excessive distortion.</span>\n</div>\n<div>\n<div>\n<div>\n<span><b>Clearer Details After Dark：</b></span><span>The wide f/1.55 aperture, Super Night Vision, and WDR work together to brighten dark scenes and balance exposure for clearer footage in tunnels, parking areas, and at night.</span>\n</div>\n<div>\n<div>\n<div>\n<span><b>Compact, Screenless, and Flexible：</b></span><span>The compact, screenless body stays discreet and out of your line of sight. Adjust the lens through 360°, while in-app flip and mirror settings keep footage correctly oriented.</span>\n</div>\n<div>\n<div>\n<div>\n<span><b>Keep Watch While You’re Away：</b></span><span>G-sensor collision detection automatically records a 30-second event clip. Time-lapse recording captures continuously at 1 FPS, compressing every 15 minutes into one minute to save storage space.</span>\n</div>\n<div>\n<div>\n<div>\n<span><b>Capture More Than the Moment of Impact：</b></span><span>Buffered Emergency Recording preserves up to 3 minutes 10 seconds before an incident and 30 seconds after, saving the footage in a dedicated Emergency folder for easy access.</span>\n</div>\n<div>\n<div>\n<div>\n<span><b>Record Without Constant File Management：</b></span><span>Loop Recording automatically replaces older standard clips. Emergency and parking videos are saved in separate folders and loop independently, helping protect important footage from regular-file overwriting.</span>\n</div>\n<div>\n<div>\n<div><span><b>Everything You Need, Right from Your Phone：</b></span></div>\n<div><span>Connect through built-in Wi-Fi to preview footage, adjust settings, play back clips, and download videos directly in the 70mai App.</span></div>\n<div>\n<div>\n<div><span><b>Stay Focused with Voice Control：</b></span></div>\n<div><span>Use simple voice commands to control key functions without taking your hands off the wheel.</span></div>\n<div>\n<div>\n<div><span><b>More Room for Every Journey：</b></span></div>\n<div><span>Supports 16GB to 256GB microSD cards, providing more recording space for daily drives, long trips, and high-resolution 4K footage.</span></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+        "options": [],
+        "variants": [
+            {
+                "sku": "6830AA800672",
+                "options": {},
+                "price": 7199,
+                "compare_price": null,
+                "stock": 100,
+                "image": null
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/3034a1133efe01daba919094b70c6310.jpg?v=1788234535&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/SuperiorNightVision.jpg?v=1788249534&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/SmartWDRTechnology2.jpg?v=1788249534&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/SmartVoiceCommand.jpg?v=1788249533&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/Real4KUltraHD.jpg?v=1788249534&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/MiniSize_Mighty4K.jpg?v=1788249533&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/APPControl_WiFiConnection.jpg?v=1788249533&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/360_RotatableLens.jpg?v=1788249534&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card"
+        ]
+    },
+    {
+        "handle": "dash-cam-a810",
+        "name": "70mai Dash Cam 4K A810 with Sony STARVIS 2 IMX678, 4G LTE & Dual HDR Supported",
+        "product_type": "Dash Cam",
+        "brand": "70mai",
+        "collections": [
+            "dash-cams"
+        ],
+        "attributes": {
+            "short_name": "70mai Dash Cam 4K A810",
+            "series": "With Screen - A Series",
+            "tagline": "Extreme Clarity. Extreme Security."
+        },
+        "description": "<div>\n<ul>\n<li><span><strong>Powered by Sony STARVIS 2 IMX678:</strong> The A810 captures footage at 4K UHD resolution for exceptional image quality.</span></li>\n<li><span><strong>70mai Night Owl Vision: </strong>A self-developed HDR algorithm that produces images with extremely high clarity in both static and dynamic scenes under low-light conditions. </span></li>\n<li><span><strong>HDR Dual-Channel Recording:</strong> Front 4K HDR and rear 1080P HDR give maximum coverage of the road, providing superior image clarity. </span></li>\n<li><span><strong>Smart Parking Guardian Mode: </strong>Enabled by AI Motion Detection, automatically activates recording once potential threats identified (Hardwire Kit required).?</span></li>\n<li><span><strong>Time-Lapse Recording: </strong>Compress every 15 minutes into 1 minute during parking mode to save memory card space (Hardwire Kit required).?</span></li>\n<li><span><strong>MaiColor Vivid+ Solution: </strong>A self-developed color solution that optimizes images in color, realism, accuracy, and computational efficiency. </span></li>\n<li><span><strong>Super-Sensing ADAS:</strong> Expanded safety alerts including Pedestrian/Bikers Alert, Lane Departure Alert, Front Collision Alert and Moving Traffic Alert.</span></li>\n<li><span><strong>Supported microSD card:</strong> 32G-256G (Optional, Link <a title=\"70mai miscosd card\" href=\"https://70mai.store/products/microsd-card\" target=\"_blank\"><span>Here</span></a>)</span></li>\n</ul>\n</div>",
+        "options": [
+            {
+                "handle": "package",
+                "name": "Package",
+                "display": "button",
+                "values": [
+                    {
+                        "name": "Front+Rear Cam"
+                    },
+                    {
+                        "name": "Front Cam"
+                    },
+                    {
+                        "name": "4G Gift Box (US Only)"
+                    },
+                    {
+                        "name": "Gift Box (US Only)"
+                    }
+                ]
+            }
+        ],
+        "variants": [
+            {
+                "sku": "6830AA800295",
+                "options": {
+                    "package": "Front+Rear Cam"
+                },
+                "price": 10999,
+                "compare_price": 14999,
+                "stock": 100,
+                "image": 0
+            },
+            {
+                "sku": "6830AA800222",
+                "options": {
+                    "package": "Front Cam"
+                },
+                "price": 9999,
+                "compare_price": 10999,
+                "stock": 0,
+                "image": 1
+            },
+            {
+                "sku": "A810-4G-PACK-US",
+                "options": {
+                    "package": "4G Gift Box (US Only)"
+                },
+                "price": 21999,
+                "compare_price": 30994,
+                "stock": 100,
+                "image": 2
+            },
+            {
+                "sku": "A810-PACK-US",
+                "options": {
+                    "package": "Gift Box (US Only)"
+                },
+                "price": 19999,
+                "compare_price": 24999,
+                "stock": 100,
+                "image": 3
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dash_Cam_A810-2_-_white.jpg?v=1763544128&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dash_Cam_A810_-_front_2.png?v=1753082345&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/a810-4g-gift-box-2024_2.jpg?v=1769761112&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/a810-gift-box-2024_2.jpg?v=1769761112&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dash_Cam_A810_-_front.jpg?v=1753082343&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_A810_-_4K.jpg?v=1769761112&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_A810_-_60FPS.jpg?v=1769761112&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_A810_-_ADAS.jpg?v=1769761112&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card",
+            "4g-hardwire-kit"
+        ]
+    },
+    {
+        "handle": "dash-cam-m310",
+        "name": "70mai Dash Cam M310 2K QHD with Built-In LED Indicator & Upgraded USB C",
+        "product_type": "Dash Cam",
+        "brand": "70mai",
+        "collections": [
+            "dash-cams"
+        ],
+        "attributes": {
+            "short_name": "70mai Dash Cam M310",
+            "series": "Screenless - M Series",
+            "tagline": "Next-Level Clarity within Reach."
+        },
+        "description": "<ul>\n<li>\n<p><strong>2K QHD:</strong> 1.5x Clearer than 1080P, producing sharper images with real-life details.</p>\n</li>\n<li>\n<p><strong>Built-in LED Indicator: </strong>The 3-color LED indicator-red, green, and blue-displays recording status, offering clear reminders while driving.<br></p>\n</li>\n<li>\n<p><strong>Voice Control: </strong>Take photos/videos, turn on/off audio all with simple voice commands.</p>\n</li>\n<li>\n<p><strong>70mai Night Owl Vision:</strong> producing clear images at night, in the tunnel, or under other undesirable lightings.</p>\n</li>\n<li>\n<p><strong>24H Smart Parking Surveillance:</strong> monitor your car even when you're not around (70mai hardwire kit required).</p>\n</li>\n<li>\n<p><strong>Upgraded Type-C Interface: </strong>enables faster data transfer, greater compatibility, and higher power delivery, enhancing the dash cam's versatility.</p>\n</li>\n<li>\n<p><span><strong>App Control:</strong> connects to the 70mai App, so you can check recordings in realtime and take photos whenever you need to.</span></p>\n</li>\n<li>\n<p><span><strong>Supported microSD card:</strong> 16G-256G (Optional, Link <a href=\"https://70mai.store/products/microsd-card\" title=\"70mai miscosd card\" rel=\"noopener noreferrer\" target=\"_blank\"><span>Here</span></a>)</span></p>\n</li>\n</ul>",
+        "options": [],
+        "variants": [
+            {
+                "sku": "6839AA800246",
+                "options": {},
+                "price": 3199,
+                "compare_price": 3999,
+                "stock": 0,
+                "image": null
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_M310_-_front.jpg?v=1753082349&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/m310-dash-cam-showcase_4.jpg?v=1753082349&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_M310_-_parking_surveillance.jpg?v=1753082349&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_M310_-_130_wide.jpg?v=1753082349&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_M310_-_app.jpg?v=1753082349&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_M310_-_support_typeC.jpg?v=1753082350&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_M310_-_reliability.jpg?v=1753082350&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/70mai_Dashcam_M310_-_design.jpg?v=1753082350&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card"
+        ]
+    },
+    {
+        "handle": "rearview-dash-cam-s500",
+        "name": "70mai Rearview Dash Cam S500 3K HDR with A 9-Inch Touch Screen & Super Capacitor",
+        "product_type": "Dash Cam",
+        "brand": "70mai",
+        "collections": [
+            "dash-cams"
+        ],
+        "attributes": {
+            "short_name": "70mai Rearview Dash Cam S500",
+            "series": "Streaming - S Series",
+            "tagline": "Touch into the Brilliance of 3K Streaming."
+        },
+        "description": "<ul>\n<li>\n<p><span><strong>9.35-inch Full-Laminated Touch Screen:</strong><span> Eliminating blind spots for an expansive view.</span></span></p>\n</li>\n<li>\n<p><span><strong>3K HDR Image:</strong> <span>Experience exceptional image quality with </span>3K resolution powered by a 5MP Sony STARVIS 2 IMX675 sensor.</span></p>\n</li>\n<li>\n<p><span><strong>HDR Dual-Channel Recording:</strong> Enhanced by MaiColor Vivid+ Solution, ensures clear details even in complex nighttime scenes or sudden bursts of light when exiting tunnels.</span></p>\n</li>\n<li>\n<p><span><span><strong>Super Capacitor Solution:</strong> The super-capacitor solution's exceptional durability enables the dash cam to endure challenging weather conditions, making it a long-lasting choice for your journeys.</span></span></p>\n</li>\n<li>\n<p><span><strong>Voice Control:</strong> Use voice commands like \"Take Photo,\" \"Lock Video,\" or \"Show Rear Camera\" to control photo capture, video security, and camera switching.</span></p>\n</li>\n<li>\n<p><span><strong>24H Smart Parking Surveillance:</strong> <span>The built-in G-sensor will trigger a 30s surveillance video upon collision detection and notify you through a voice alert once it's turned back on.</span></span></p>\n</li>\n<li>\n<p><span><span><strong>Real-time Reversing View:</strong> When shifting into reverse, the dash cam automatically marks parking assist lines, simplifying parking maneuvers.</span></span></p>\n</li>\n<li>\n<p><span><strong>Supported microSD card: </strong>32G-128G (Optional, Link<a title=\"70mai miscosd card\" href=\"https://70mai.store/products/microsd-card\" target=\"_blank\"><span>Here</span></a>)</span></p>\n</li>\n</ul>",
+        "options": [],
+        "variants": [
+            {
+                "sku": "6839AA800132",
+                "options": {},
+                "price": 10999,
+                "compare_price": 19999,
+                "stock": 100,
+                "image": null
+            }
+        ],
+        "images": [
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/s500-rearview-dashcam.jpg?v=1751883553&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/s500-back.jpg?v=1751883553&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/s500-sony-starvis2.jpg?v=1751883553&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/s500-super-capacitor.jpg?v=1751883553&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/s500-3k-uhd.jpg?v=1751883553&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/s500-hdr-dual-channel-recording.jpg?v=1751883554&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/s500-adaptable-design.jpg?v=1751883554&width=1200",
+            "https://cdn.shopify.com/s/files/1/0039/4500/5102/files/s500-loop-recording.jpg?v=1751883554&width=1200"
+        ],
+        "cross_sells": [
+            "microsd-card"
+        ]
+    }
+]

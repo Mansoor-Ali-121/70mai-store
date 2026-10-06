@@ -33,6 +33,35 @@ return [
         'flat_rate' => (int) env('SHIPPING_FLAT_RATE', 999),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Merchandising
+    |--------------------------------------------------------------------------
+    |
+    | Lunar collection slugs that drive the storefront: the header/footer menus
+    | list `navigation` collections (with their products), and the homepage
+    | "Explore by Series" tabs come from `homepage_series`.
+    |
+    */
+
+    'navigation' => ['dash-cams', 'accessories', 'hardwire-kits'],
+
+    'homepage_series' => 'explore-by-series',
+
+    // Number of interest-free installments advertised on product pages (0 to hide).
+    'installments' => (int) env('STORE_INSTALLMENTS', 4),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Seeding
+    |--------------------------------------------------------------------------
+    |
+    | Whether LunarProductSeeder downloads product images from the 70mai CDN.
+    |
+    */
+
+    'seed_product_images' => (bool) env('SEED_PRODUCT_IMAGES', true),
+
     'countries' => [
         'US' => 'United States',
         'CA' => 'Canada',

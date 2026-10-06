@@ -24,8 +24,8 @@ export default function OrderConfirmation({ order }) {
                     </div>
 
                     <p className="mt-6 text-[17px] leading-relaxed">
-                        We've received your order and saved it as <strong>{order.status}</strong>. Payment hasn't been
-                        taken; we'll contact you at <strong>{order.email}</strong> about the next steps.
+                        We've received your order (status: <strong>{order.status}</strong>). Payment hasn't been taken;
+                        we'll contact you at <strong>{order.email}</strong> about the next steps.
                     </p>
 
                     <div className="mt-10 grid gap-8 md:grid-cols-[minmax(0,1fr)_260px]">
@@ -35,6 +35,7 @@ export default function OrderConfirmation({ order }) {
                                 lines={order.lines}
                                 subtotal={order.subtotal}
                                 shipping={order.shipping_total}
+                                tax={order.tax_total}
                                 total={order.total}
                                 currency={order.currency}
                             />
@@ -45,12 +46,12 @@ export default function OrderConfirmation({ order }) {
                             <p>
                                 {address.first_name} {address.last_name}
                             </p>
-                            <p>{address.address_line_1}</p>
-                            {address.address_line_2 && <p>{address.address_line_2}</p>}
+                            <p>{address.line_one}</p>
+                            {address.line_two && <p>{address.line_two}</p>}
                             <p>
-                                {address.city}, {address.state} {address.postal_code}
+                                {address.city}, {address.state} {address.postcode}
                             </p>
-                            <p>{order.country_name}</p>
+                            <p>{address.country}</p>
                             {address.phone && <p className="text-muted">{address.phone}</p>}
                         </section>
                     </div>

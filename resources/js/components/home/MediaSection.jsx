@@ -1,5 +1,6 @@
 import AppLink from '@/components/site/AppLink';
 import CloudImage from '@/components/site/CloudImage';
+import { officialUrl } from '@/lib/officialSite';
 import SectionTitle from './SectionTitle';
 
 const MEDIA_ITEMS = [
@@ -12,7 +13,7 @@ const MEDIA_ITEMS = [
     {
         image: 'dashcamIndex/iimg_p5_2.png',
         alt: '70mai dash cam video reviews',
-        href: '/news?tab=1',
+        href: officialUrl('news'),
         label: 'Watch Video Reviews >',
     },
 ];

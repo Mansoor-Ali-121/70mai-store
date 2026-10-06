@@ -19,7 +19,6 @@ import { useVariantSelection } from '@/hooks/useVariantSelection';
 import StoreLayout from '@/layouts/StoreLayout';
 import { Head, router } from '@inertiajs/react';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import demoProduct from '../../data/products/dash-cam-4k-omni.json';
 
 function PageSection({ id, title, children }) {
     return (
@@ -32,9 +31,7 @@ function PageSection({ id, title, children }) {
     );
 }
 
-export default function ProductDetail({ product: productProp }) {
-    // Fall back to the bundled demo product when the page is rendered without data.
-    const product = productProp && Object.keys(productProp).length > 0 ? productProp : demoProduct;
+export default function ProductDetail({ product }) {
     const variants = product.variants ?? [];
     const images = product.images ?? [];
 
@@ -53,11 +50,15 @@ export default function ProductDetail({ product: productProp }) {
     const [toast, setToast] = useState(null);
     const buyButtonsRef = useRef(null);
 
-    // Show the selected variant's image.
+    // Most units of the selected variant that can be bought (its Lunar stock, capped at 99).
+    const maxQuantity = Math.max(1, variant?.max_quantity ?? 1);
+
+    // Show the selected variant's image, and keep the quantity within its stock.
     useEffect(() => {
         if (variant?.image != null) {
             setActiveImage(variant.image);
         }
+        setQuantity((current) => Math.min(current, maxQuantity));
     }, [variant?.id]);
 
     useEffect(() => {
@@ -156,7 +157,12 @@ export default function ProductDetail({ product: productProp }) {
 
                         <div>
                             <p className="mb-3 text-[17px]">Quantity</p>
-                            <QuantitySelector value={quantity} onChange={setQuantity} />
+                            <QuantitySelector value={quantity} onChange={setQuantity} max={maxQuantity} />
+                            {canPurchase && variant.max_quantity <= 10 && (
+                                <p className="mt-2 text-sm text-mai">
+                                    Only {variant.max_quantity} left in stock
+                                </p>
+                            )}
                         </div>
 
                         <div ref={buyButtonsRef} className="grid gap-3 sm:grid-cols-2 sm:gap-4">
@@ -192,8 +198,16 @@ export default function ProductDetail({ product: productProp }) {
 
                         <ProductHighlights highlights={product.highlights} note={product.highlights_note} />
 
+                        {!product.highlights?.length && product.description_paragraphs?.length > 0 && (
+                            <div className="space-y-3 text-[17px] leading-relaxed text-muted">
+                                {product.description_paragraphs.map((paragraph) => (
+                                    <p key={paragraph}>{paragraph}</p>
+                                ))}
+                            </div>
+                        )}
+
                         {product.shipping?.length > 0 && (
-                            <div className="border-t border-[#E5E5E5]">
+                            <div id="shipping-returns" className="scroll-mt-32 border-t border-[#E5E5E5] lg:scroll-mt-44">
                                 <Accordion title="Shipping & Returns">
                                     <div className="space-y-8">
                                         {product.shipping.map((section) => (

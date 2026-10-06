@@ -1,30 +1,26 @@
+import { officialUrl } from '@/lib/officialSite';
+import { usePage } from '@inertiajs/react';
 import { useState } from 'react';
 import AppLink from './AppLink';
 import CloudImage from './CloudImage';
 import Logo from './Logo';
 import NewsletterForm from './NewsletterForm';
 
+// Product links come from the Lunar collections (see SiteFooter); these are info pages and creator programmes.
 const FOOTER_GROUPS = [
-    {
-        title: 'Products',
-        links: [
-            { label: 'Dash Cams', href: '/dashcams' },
-            { label: 'Accessories', href: '/accessories' },
-        ],
-    },
     {
         title: 'Support',
         links: [
-            { label: 'Customer Support', href: '/support' },
-            { label: 'App Download', href: '/download' },
+            { label: 'Customer Support', href: officialUrl('support') },
+            { label: 'App Download', href: officialUrl('download') },
         ],
     },
     {
         title: 'About 70mai',
         links: [
-            { label: 'About Us', href: '/about' },
-            { label: 'Press and Media', href: '/news' },
-            { label: 'Contact Us', href: '/contactus' },
+            { label: 'About Us', href: officialUrl('about') },
+            { label: 'Press and Media', href: officialUrl('news') },
+            { label: 'Contact Us', href: officialUrl('contactus') },
         ],
     },
     {
@@ -97,7 +93,7 @@ function PrivacyNotice() {
     return (
         <p className="text-xs">
             By signing up, you agree to 70mai's{' '}
-            <AppLink href="/privacy-policy" newTab className="text-mai">
+            <AppLink href={officialUrl('privacy-policy')} newTab className="text-mai">
                 Privacy Policy
             </AppLink>
             .
@@ -106,10 +102,13 @@ function PrivacyNotice() {
 }
 
 export default function SiteFooter() {
+    const navigation = usePage().props.navigation ?? [];
+    const groups = [{ title: 'Products', links: navigation.map(({ label, href }) => ({ label, href })) }, ...FOOTER_GROUPS];
+
     return (
         <footer className="border-t px-[22px]">
             <div className="mx-auto flex w-screen-lg max-w-full flex-col py-8 text-sm text-muted md:grid md:grid-cols-4 md:py-10">
-                {FOOTER_GROUPS.map((group) => (
+                {groups.map((group) => (
                     <FooterNavGroup key={group.title} {...group} />
                 ))}
             </div>

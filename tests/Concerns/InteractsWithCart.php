@@ -2,44 +2,66 @@
 
 namespace Tests\Concerns;
 
+use Database\Seeders\HomepageSeeder;
+use Database\Seeders\LunarBaseSeeder;
+use Database\Seeders\LunarProductSeeder;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Testing\TestResponse;
+use Lunar\Models\CartLine;
+use Lunar\Models\ProductVariant;
 
 /**
- * The test client doesn't keep cookies between requests, so carry the cart
- * cookie from each response into the next request like a browser would.
+ * Seeds the Lunar catalogue (without downloading images) and provides cart helpers.
  */
 trait InteractsWithCart
 {
-    // Variant ids from resources/data/products/dash-cam-4k-omni.json.
-    protected const OMNI_FRONT_REAR_BLACK = 41314857451566; // $269.99
+    // SKUs from database/seeders/data/products.json.
+    protected const OMNI_FRONT_REAR_BLACK = '6830AA800385'; // $269.99
 
-    protected const SD_CARD_256G = 40464939941934; // $59.99 add-on
+    protected const SD_CARD_256G = '5350AA800004'; // $59.99
 
-    protected const SD_CARD_32G_SOLD_OUT = 40173136281646;
+    protected const SD_CARD_32G_SOLD_OUT = '5350AA000069';
 
-    protected function rememberCart(TestResponse $response): TestResponse
+    protected function seedCatalog(): void
     {
-        $name = config('store.cart.cookie');
-        $cookie = $response->getCookie($name);
+        config(['store.seed_product_images' => false]);
 
-        if ($cookie !== null) {
-            $this->withCookie($name, $cookie->isCleared() ? '' : $cookie->getValue());
-        }
+        Http::fake(['data.lunarphp.io/*' => Http::response([[
+            'name' => 'United States',
+            'iso3' => 'USA',
+            'iso2' => 'US',
+            'phone_code' => '1',
+            'capital' => 'Washington',
+            'currency' => 'USD',
+            'native' => 'United States',
+            'emoji' => '🇺🇸',
+            'emojiU' => 'U+1F1FA U+1F1F8',
+            'states' => [['name' => 'California', 'state_code' => 'CA']],
+        ]])]);
 
-        return $response;
+        $this->seed([LunarBaseSeeder::class, LunarProductSeeder::class, HomepageSeeder::class]);
+    }
+
+    protected function variantId(string $sku): ?int
+    {
+        return ProductVariant::where('sku', $sku)->value('id');
+    }
+
+    protected function lineId(string $sku): int
+    {
+        return CartLine::where('purchasable_id', $this->variantId($sku))->value('id');
     }
 
     /**
-     * @param  array<int, int>  $items  variant id => quantity
+     * @param  array<string, int>  $items  SKU => quantity
      */
     protected function addToCart(array $items): TestResponse
     {
-        $payload = array_map(
-            fn ($variantId, $quantity) => ['variant_id' => $variantId, 'quantity' => $quantity],
-            array_keys($items),
-            $items,
-        );
+        $payload = [];
+        foreach ($items as $sku => $quantity) {
+            $payload[] = ['variant_id' => $this->variantId($sku) ?? 999999, 'quantity' => $quantity];
+        }
 
-        return $this->rememberCart($this->post('/cart/items', ['items' => $payload]));
+        return $this->post('/cart/items', ['items' => $payload]);
     }
 }

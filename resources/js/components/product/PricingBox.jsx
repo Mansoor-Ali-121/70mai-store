@@ -1,4 +1,3 @@
-import AppLink from '@/components/site/AppLink';
 import { formatMoney } from '@/lib/money';
 import StarRating from './StarRating';
 
@@ -25,9 +24,9 @@ export default function PricingBox({ price, compareAtPrice, currency = 'USD', in
             </div>
 
             <p className="text-[15px] text-muted">
-                <AppLink href="/policies/shipping-policy" className="underline underline-offset-4">
+                <a href="#shipping-returns" className="underline underline-offset-4">
                     Shipping
-                </AppLink>{' '}
+                </a>{' '}
                 calculated at checkout.
             </p>
 

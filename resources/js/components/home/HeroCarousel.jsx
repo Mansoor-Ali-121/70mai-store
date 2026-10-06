@@ -1,3 +1,4 @@
+import { createContext, useContext } from 'react';
 import AppLink from '@/components/site/AppLink';
 import CloudImage from '@/components/site/CloudImage';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
@@ -46,6 +47,36 @@ function SlideButton({ href, newTab, light = false, secondary = false, children 
     );
 }
 
+// Lunar products for the banners, keyed by slug (from HomeController).
+const ProductsContext = createContext({});
+
+/**
+ * "Learn More" / "Buy Now" for the banner's Lunar product. Falls back to the
+ * dash cam collection when the product isn't in the catalogue (or unpublished).
+ */
+function ProductActions({ slug, light = false, className = '' }) {
+    const product = useContext(ProductsContext)[slug];
+
+    return (
+        <SlideActions className={className}>
+            {product ? (
+                <>
+                    <SlideButton href={`/products/${product.slug}#details`} light={light}>
+                        {'Learn More >'}
+                    </SlideButton>
+                    <SlideButton href={`/products/${product.slug}`} light={light} secondary>
+                        {product.available ? 'Buy Now >' : 'Sold Out'}
+                    </SlideButton>
+                </>
+            ) : (
+                <SlideButton href="/collections/dash-cams" light={light}>
+                    {'Shop Dash Cams >'}
+                </SlideButton>
+            )}
+        </SlideActions>
+    );
+}
+
 const SLIDES = [
     {
         key: 'a900-ultra',
@@ -61,11 +92,7 @@ const SLIDES = [
                     The Flagship of Dual 4K Vision. <br />
                     Every Frame Synced.
                 </p>
-                <SlideActions className="mt-4 md:mt-5">
-                    <SlideButton href="/a900ultra" light>
-                        {'Learn More >'}
-                    </SlideButton>
-                </SlideActions>
+                <ProductActions slug="dash-cam-4k-a900-ultra" light className="mt-4 md:mt-5" />
             </SlideCopy>
         ),
     },
@@ -83,11 +110,8 @@ const SLIDES = [
                     Dual True 4K. Dual HDR. <br />
                     Security in Every Frame.
                 </p>
-                <SlideActions className="mt-4 md:mt-5">
-                    <SlideButton href="/a900" light>
-                        {'Learn More >'}
-                    </SlideButton>
-                </SlideActions>
+                {/* The plain 4K A900 isn't sold in the store, so this falls back to the collection. */}
+                <ProductActions slug="dash-cam-4k-a900" light className="mt-4 md:mt-5" />
             </SlideCopy>
         ),
     },
@@ -176,12 +200,7 @@ const SLIDES = [
                 <p className="whitespace-pre-line pb-4 text-base font-medium md:text-2xl">
                     Lite on Size. Strong in 4K Detail.
                 </p>
-                <SlideActions>
-                    <SlideButton href="/a810lite">{'Learn More >'}</SlideButton>
-                    <SlideButton href="https://70mai.associates/4nXbpjJ" newTab secondary>
-                        {'Buy Now >'}
-                    </SlideButton>
-                </SlideActions>
+                <ProductActions slug="dash-cam-4k-a810-lite" />
             </SlideCopy>
         ),
     },
@@ -199,11 +218,7 @@ const SLIDES = [
                 <p className="whitespace-pre-line pb-4 text-base font-medium text-white md:text-2xl">
                     Tiny Body. Big 4K Performance.
                 </p>
-                <SlideActions>
-                    <SlideButton href="/m310plus4k" light>
-                        {'Learn More >'}
-                    </SlideButton>
-                </SlideActions>
+                <ProductActions slug="dash-cam-m310-plus-4k" light />
             </SlideCopy>
         ),
     },
@@ -225,21 +240,15 @@ const SLIDES = [
                 <p className="my-4 whitespace-pre-line text-center text-xs font-medium text-[#ccc] md:text-left md:text-base">
                     The first-ever 3-channel dash cam with dual 4k front and rear recording.
                 </p>
-                <SlideActions>
-                    <SlideButton href="/t800" light>
-                        {'Learn More >'}
-                    </SlideButton>
-                    <SlideButton href="https://bit.ly/4lsQsds" newTab light secondary>
-                        {'Buy Now >'}
-                    </SlideButton>
-                </SlideActions>
+                <ProductActions slug="4k-t800-dash-cam" light />
             </SlideCopy>
         ),
     },
 ];
 
-export default function HeroCarousel() {
+export default function HeroCarousel({ products = {} }) {
     return (
+        <ProductsContext.Provider value={products}>
         <Swiper
             modules={[Autoplay, Navigation, Pagination]}
             loop
@@ -255,5 +264,6 @@ export default function HeroCarousel() {
                 </SwiperSlide>
             ))}
         </Swiper>
+        </ProductsContext.Provider>
     );
 }

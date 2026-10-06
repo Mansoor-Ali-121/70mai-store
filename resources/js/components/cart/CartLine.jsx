@@ -40,6 +40,7 @@ export default function CartLine({ line, currency, busy, onQuantityChange, onRem
                     <QuantitySelector
                         value={line.quantity}
                         onChange={onQuantityChange}
+                        max={line.max_quantity ?? 99}
                         size="sm"
                         label={`${line.name} quantity`}
                     />

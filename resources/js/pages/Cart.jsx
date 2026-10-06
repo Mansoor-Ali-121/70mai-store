@@ -7,18 +7,18 @@ import { useState } from 'react';
 
 export default function Cart({ lines = [], subtotal = 0, currency = 'USD' }) {
     const { flash } = usePage().props;
-    const [busyVariant, setBusyVariant] = useState(null);
+    const [busyLine, setBusyLine] = useState(null);
 
-    const visitOptions = (variantId) => ({
+    const visitOptions = (lineId) => ({
         preserveScroll: true,
-        onStart: () => setBusyVariant(variantId),
-        onFinish: () => setBusyVariant(null),
+        onStart: () => setBusyLine(lineId),
+        onFinish: () => setBusyLine(null),
     });
 
-    const updateQuantity = (variantId, quantity) =>
-        router.patch(`/cart/items/${variantId}`, { quantity }, visitOptions(variantId));
+    const updateQuantity = (lineId, quantity) =>
+        router.patch(`/cart/lines/${lineId}`, { quantity }, visitOptions(lineId));
 
-    const removeLine = (variantId) => router.delete(`/cart/items/${variantId}`, visitOptions(variantId));
+    const removeLine = (lineId) => router.delete(`/cart/lines/${lineId}`, visitOptions(lineId));
 
     const itemCount = lines.reduce((sum, line) => sum + line.quantity, 0);
 
@@ -45,10 +45,10 @@ export default function Cart({ lines = [], subtotal = 0, currency = 'USD' }) {
                         <p className="text-2xl">Your cart is empty</p>
                         <p className="mt-3 text-muted">Find the right dash cam for your car.</p>
                         <Link
-                            href="/products/dash-cam-4k-omni"
+                            href="/collections/dash-cams"
                             className="mt-8 inline-block bg-mai px-10 py-4 text-lg font-medium text-white hover:bg-[#e8560f]"
                         >
-                            Shop Dash Cam 4K Omni
+                            Shop dash cams
                         </Link>
                     </div>
                 ) : (
@@ -57,12 +57,12 @@ export default function Cart({ lines = [], subtotal = 0, currency = 'USD' }) {
                             <ul className="divide-y divide-[#E5E5E5]">
                                 {lines.map((line) => (
                                     <CartLine
-                                        key={line.variant_id}
+                                        key={line.id}
                                         line={line}
                                         currency={currency}
-                                        busy={busyVariant === line.variant_id}
-                                        onQuantityChange={(quantity) => updateQuantity(line.variant_id, quantity)}
-                                        onRemove={() => removeLine(line.variant_id)}
+                                        busy={busyLine === line.id}
+                                        onQuantityChange={(quantity) => updateQuantity(line.id, quantity)}
+                                        onRemove={() => removeLine(line.id)}
                                     />
                                 ))}
                             </ul>
@@ -82,7 +82,7 @@ export default function Cart({ lines = [], subtotal = 0, currency = 'USD' }) {
                             <Link
                                 href="/checkout"
                                 className={`flex h-[58px] w-full items-center justify-center bg-mai text-lg font-medium text-white transition-colors hover:bg-[#e8560f] ${
-                                    busyVariant ? 'pointer-events-none opacity-60' : ''
+                                    busyLine ? 'pointer-events-none opacity-60' : ''
                                 }`}
                             >
                                 Check out

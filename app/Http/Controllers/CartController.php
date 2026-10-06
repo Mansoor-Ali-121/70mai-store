@@ -2,67 +2,73 @@
 
 namespace App\Http\Controllers;
 
-use App\Support\Cart;
-use App\Support\ProductCatalog;
+use App\Storefront\Catalog;
+use App\Storefront\Exceptions\InsufficientStock;
+use App\Storefront\ProductPresenter;
+use App\Storefront\StoreCart;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 use Inertia\Inertia;
 use Inertia\Response;
+use Lunar\Exceptions\Carts\CartException;
 
 class CartController extends Controller
 {
-    public function index(Cart $cart): Response
+    public function index(StoreCart $cart): Response
     {
-        $lines = $cart->lines();
-
-        return Inertia::render('Cart', [
-            'lines' => $lines,
-            'subtotal' => $cart->subtotal($lines),
-            'currency' => $lines[0]['currency'] ?? 'USD',
-        ]);
+        return Inertia::render('Cart', $cart->summary());
     }
 
-    public function store(Request $request, Cart $cart, ProductCatalog $catalog): RedirectResponse
+    public function store(Request $request, StoreCart $cart, Catalog $catalog): RedirectResponse
     {
         $validated = $request->validate([
             'items' => ['required', 'array', 'min:1'],
             'items.*.variant_id' => ['required', 'integer'],
-            'items.*.quantity' => ['required', 'integer', 'min:1', 'max:'.Cart::MAX_QUANTITY],
+            'items.*.quantity' => ['required', 'integer', 'min:1', 'max:'.StoreCart::MAX_QUANTITY],
             'buy_now' => ['sometimes', 'boolean'],
         ]);
 
+        $variants = [];
         foreach ($validated['items'] as $item) {
             $variant = $catalog->findVariant($item['variant_id']);
 
-            if ($variant === null || ! $variant['available']) {
-                throw ValidationException::withMessages([
-                    'items' => 'One of the selected items is unavailable.',
-                ]);
+            if ($variant === null || ! ProductPresenter::isAvailable($variant)) {
+                throw ValidationException::withMessages(['items' => 'One of the selected items is unavailable.']);
             }
+
+            $variants[] = [$variant, $item['quantity']];
         }
 
-        foreach ($validated['items'] as $item) {
-            $cart->add($item['variant_id'], $item['quantity']);
+        try {
+            foreach ($variants as [$variant, $quantity]) {
+                $cart->add($variant, $quantity);
+            }
+        } catch (InsufficientStock|CartException $e) {
+            throw ValidationException::withMessages(['items' => $e->getMessage()]);
         }
 
         return $request->boolean('buy_now') ? to_route('checkout.show') : back();
     }
 
-    public function update(Request $request, Cart $cart, int $variant): RedirectResponse
+    public function update(Request $request, StoreCart $cart, int $line): RedirectResponse
     {
         $validated = $request->validate([
-            'quantity' => ['required', 'integer', 'min:0', 'max:'.Cart::MAX_QUANTITY],
+            'quantity' => ['required', 'integer', 'min:0', 'max:'.StoreCart::MAX_QUANTITY],
         ]);
 
-        $cart->update($variant, $validated['quantity']);
+        try {
+            $cart->updateLine($line, $validated['quantity']);
+        } catch (CartException $e) {
+            return back()->with('error', $e->getMessage());
+        }
 
         return back();
     }
 
-    public function destroy(Cart $cart, int $variant): RedirectResponse
+    public function destroy(StoreCart $cart, int $line): RedirectResponse
     {
-        $cart->remove($variant);
+        $cart->removeLine($line);
 
         return back();
     }

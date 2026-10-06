@@ -5,7 +5,7 @@ import SeriesExplorer from '@/components/home/SeriesExplorer';
 import SiteLayout from '@/layouts/SiteLayout';
 import { Head } from '@inertiajs/react';
 
-export default function Home() {
+export default function Home({ series = [], products = {} }) {
     return (
         <SiteLayout>
             <Head title="70mai: Innovator in Smart Dash Cams">
@@ -19,8 +19,8 @@ export default function Home() {
             <h1 className="sr-only">70mai: Innovator in Smart Dash Cams</h1>
 
             <div className="w-full pb-10 md:pb-14">
-                <HeroCarousel />
-                <SeriesExplorer />
+                <HeroCarousel products={products} />
+                <SeriesExplorer series={series} />
                 <PressSection />
                 <MediaSection />
             </div>
