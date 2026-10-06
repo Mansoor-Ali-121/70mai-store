@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .hide-scrollbar {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Swiper theming, matching the original site. Set as variables so the order
+   in which Swiper's own stylesheet loads doesn't matter. */
+.site-swiper {
+    --swiper-theme-color: #b8b5b5;
+    --swiper-pagination-color: #ff4b00;
+}
+
+.site-swiper .swiper-button-prev {
+    --swiper-navigation-color: #ccc;
+}
+
+.site-swiper .swiper-button-prev,
+.site-swiper .swiper-button-next {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .site-swiper .swiper-button-prev,
+    .site-swiper .swiper-button-next {
+        display: flex;
+    }
+}
